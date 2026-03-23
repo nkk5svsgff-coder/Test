@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Poppy",
+    "slug": "poppy-dating-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "poppy",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF0F8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.poppy.dating",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Poppy needs access to your microphone to record voice messages and voice intros.",
+        "NSCameraUsageDescription": "Poppy needs access to your camera to take profile photos.",
+        "NSPhotoLibraryUsageDescription": "Poppy needs access to your photos to set your profile picture."
+      }
+    },
+    "android": {
+      "package": "com.poppy.dating",
+      "adaptiveIcon": {
+        "backgroundColor": "#EC008C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "RECORD_AUDIO",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-av"
+    ]
+  }
+}
