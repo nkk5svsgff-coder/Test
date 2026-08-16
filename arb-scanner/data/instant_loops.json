@@ -1,0 +1,1387 @@
+{
+ "ts": "2026-08-16T15:05:12Z",
+ "stable_cross": [
+  {
+   "ex": "mexc",
+   "path": "USDT->GOLD(PAXG)->USDC->USDT",
+   "asset": "GOLD(PAXG)",
+   "net_pct": -0.1091,
+   "legs": 3,
+   "usdt_pair_qvol": 355806,
+   "usdc_pair_qvol": 65713,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.2555
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->DOGE->USDT",
+   "asset": "DOGE",
+   "net_pct": -0.1184,
+   "legs": 3,
+   "usdt_pair_qvol": 2173453,
+   "usdc_pair_qvol": 25726,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.3085
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->SOL->USDT",
+   "asset": "SOL",
+   "net_pct": -0.1275,
+   "legs": 3,
+   "usdt_pair_qvol": 11582243,
+   "usdc_pair_qvol": 332937,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1872
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->BTC->USDT",
+   "asset": "BTC",
+   "net_pct": -0.1399,
+   "legs": 3,
+   "usdt_pair_qvol": 142427388,
+   "usdc_pair_qvol": 775825,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1449
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->BNB->USDT",
+   "asset": "BNB",
+   "net_pct": -0.1498,
+   "legs": 3,
+   "usdt_pair_qvol": 8090498,
+   "usdc_pair_qvol": 35517,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.2756
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->GOLD(XAUT)->USDT",
+   "asset": "GOLD(XAUT)",
+   "net_pct": -0.1525,
+   "legs": 3,
+   "usdt_pair_qvol": 180480,
+   "usdc_pair_qvol": 160844,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1525
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->GOLD(XAUT)->USDC->USDT",
+   "asset": "GOLD(XAUT)",
+   "net_pct": -0.1531,
+   "legs": 3,
+   "usdt_pair_qvol": 180480,
+   "usdc_pair_qvol": 160844,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1531
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->ETH->USDT",
+   "asset": "ETH",
+   "net_pct": -0.1539,
+   "legs": 3,
+   "usdt_pair_qvol": 44653211,
+   "usdc_pair_qvol": 149641,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1684
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->USD1->USDT",
+   "asset": "USD1",
+   "net_pct": -0.1558,
+   "legs": 3,
+   "usdt_pair_qvol": 855212,
+   "usdc_pair_qvol": 55823,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1653
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USD1->USDC->USDT",
+   "asset": "USD1",
+   "net_pct": -0.156,
+   "legs": 3,
+   "usdt_pair_qvol": 855212,
+   "usdc_pair_qvol": 55823,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1654
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->AVAX->USDC->USDT",
+   "asset": "AVAX",
+   "net_pct": -0.163,
+   "legs": 3,
+   "usdt_pair_qvol": 360587,
+   "usdc_pair_qvol": 26928,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.3346
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->BTC->USDC->USDT",
+   "asset": "BTC",
+   "net_pct": -0.1684,
+   "legs": 3,
+   "usdt_pair_qvol": 142427388,
+   "usdc_pair_qvol": 775825,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1684
+   }
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->ETH->USDC->USDT",
+   "asset": "ETH",
+   "net_pct": -0.1735,
+   "legs": 3,
+   "usdt_pair_qvol": 44653211,
+   "usdc_pair_qvol": 149641
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->XRP->USDT",
+   "asset": "XRP",
+   "net_pct": -0.1769,
+   "legs": 3,
+   "usdt_pair_qvol": 4900533,
+   "usdc_pair_qvol": 49728
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->ALLO->USDC->USDT",
+   "asset": "ALLO",
+   "net_pct": -0.1774,
+   "legs": 3,
+   "usdt_pair_qvol": 115712,
+   "usdc_pair_qvol": 56382
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->SHIB->USDT",
+   "asset": "SHIB",
+   "net_pct": -0.1798,
+   "legs": 3,
+   "usdt_pair_qvol": 421655,
+   "usdc_pair_qvol": 26249
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->XLM->USDT",
+   "asset": "XLM",
+   "net_pct": -0.1834,
+   "legs": 3,
+   "usdt_pair_qvol": 175514,
+   "usdc_pair_qvol": 52830
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->SPK->USDC->USDT",
+   "asset": "SPK",
+   "net_pct": -0.1935,
+   "legs": 3,
+   "usdt_pair_qvol": 53872,
+   "usdc_pair_qvol": 55428
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->XRP->USDC->USDT",
+   "asset": "XRP",
+   "net_pct": -0.1937,
+   "legs": 3,
+   "usdt_pair_qvol": 4900533,
+   "usdc_pair_qvol": 49728
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->U->USDC->USDT",
+   "asset": "U",
+   "net_pct": -0.194,
+   "legs": 3,
+   "usdt_pair_qvol": 54821,
+   "usdc_pair_qvol": 53664
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->BNB->USDC->USDT",
+   "asset": "BNB",
+   "net_pct": -0.1971,
+   "legs": 3,
+   "usdt_pair_qvol": 8090498,
+   "usdc_pair_qvol": 35517
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->SOL->USDC->USDT",
+   "asset": "SOL",
+   "net_pct": -0.1998,
+   "legs": 3,
+   "usdt_pair_qvol": 11582243,
+   "usdc_pair_qvol": 332937
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->FIL->USDT",
+   "asset": "FIL",
+   "net_pct": -0.2028,
+   "legs": 3,
+   "usdt_pair_qvol": 508924,
+   "usdc_pair_qvol": 25553
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->MORPHO->USDC->USDT",
+   "asset": "MORPHO",
+   "net_pct": -0.204,
+   "legs": 3,
+   "usdt_pair_qvol": 138655,
+   "usdc_pair_qvol": 55789
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->TRX->USDC->USDT",
+   "asset": "TRX",
+   "net_pct": -0.2047,
+   "legs": 3,
+   "usdt_pair_qvol": 2767772,
+   "usdc_pair_qvol": 38835
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->U->USDT",
+   "asset": "U",
+   "net_pct": -0.2068,
+   "legs": 3,
+   "usdt_pair_qvol": 54821,
+   "usdc_pair_qvol": 53664
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->AVAX->USDT",
+   "asset": "AVAX",
+   "net_pct": -0.2156,
+   "legs": 3,
+   "usdt_pair_qvol": 360587,
+   "usdc_pair_qvol": 26928
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->TAO->USDT",
+   "asset": "TAO",
+   "net_pct": -0.2163,
+   "legs": 3,
+   "usdt_pair_qvol": 578547,
+   "usdc_pair_qvol": 135761
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->TRX->USDT",
+   "asset": "TRX",
+   "net_pct": -0.2166,
+   "legs": 3,
+   "usdt_pair_qvol": 2767772,
+   "usdc_pair_qvol": 38835
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->CFX->USDC->USDT",
+   "asset": "CFX",
+   "net_pct": -0.2206,
+   "legs": 3,
+   "usdt_pair_qvol": 57757,
+   "usdc_pair_qvol": 54519
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->AIXBT->USDC->USDT",
+   "asset": "AIXBT",
+   "net_pct": -0.2219,
+   "legs": 3,
+   "usdt_pair_qvol": 53221,
+   "usdc_pair_qvol": 54983
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->CFX->USDT",
+   "asset": "CFX",
+   "net_pct": -0.2229,
+   "legs": 3,
+   "usdt_pair_qvol": 57757,
+   "usdc_pair_qvol": 54519
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->ADA->USDC->USDT",
+   "asset": "ADA",
+   "net_pct": -0.2242,
+   "legs": 3,
+   "usdt_pair_qvol": 1241664,
+   "usdc_pair_qvol": 29868
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->LINGO->USDT",
+   "asset": "LINGO",
+   "net_pct": -0.2242,
+   "legs": 3,
+   "usdt_pair_qvol": 57770,
+   "usdc_pair_qvol": 54093
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->LTC->USDT",
+   "asset": "LTC",
+   "net_pct": -0.2242,
+   "legs": 3,
+   "usdt_pair_qvol": 1400765,
+   "usdc_pair_qvol": 42729
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->LINK->USDC->USDT",
+   "asset": "LINK",
+   "net_pct": -0.2249,
+   "legs": 3,
+   "usdt_pair_qvol": 596264,
+   "usdc_pair_qvol": 71677
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->TAO->USDC->USDT",
+   "asset": "TAO",
+   "net_pct": -0.2417,
+   "legs": 3,
+   "usdt_pair_qvol": 578547,
+   "usdc_pair_qvol": 135761
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->XLM->USDC->USDT",
+   "asset": "XLM",
+   "net_pct": -0.2441,
+   "legs": 3,
+   "usdt_pair_qvol": 175514,
+   "usdc_pair_qvol": 52830
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->NPC->USDC->USDT",
+   "asset": "NPC",
+   "net_pct": -0.2456,
+   "legs": 3,
+   "usdt_pair_qvol": 71772,
+   "usdc_pair_qvol": 52825
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->ADA->USDT",
+   "asset": "ADA",
+   "net_pct": -0.2467,
+   "legs": 3,
+   "usdt_pair_qvol": 1241664,
+   "usdc_pair_qvol": 29868
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->NPC->USDT",
+   "asset": "NPC",
+   "net_pct": -0.2467,
+   "legs": 3,
+   "usdt_pair_qvol": 71772,
+   "usdc_pair_qvol": 52825
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->BCH->USDT",
+   "asset": "BCH",
+   "net_pct": -0.2467,
+   "legs": 3,
+   "usdt_pair_qvol": 2647787,
+   "usdc_pair_qvol": 28414
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->ATOM->USDC->USDT",
+   "asset": "ATOM",
+   "net_pct": -0.2561,
+   "legs": 3,
+   "usdt_pair_qvol": 327166,
+   "usdc_pair_qvol": 25402
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->LTC->USDC->USDT",
+   "asset": "LTC",
+   "net_pct": -0.2568,
+   "legs": 3,
+   "usdt_pair_qvol": 1400765,
+   "usdc_pair_qvol": 42729
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->GOLD(PAXG)->USDT",
+   "asset": "GOLD(PAXG)",
+   "net_pct": -0.2597,
+   "legs": 3,
+   "usdt_pair_qvol": 355806,
+   "usdc_pair_qvol": 65713
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->ZEC->USDT",
+   "asset": "ZEC",
+   "net_pct": -0.2648,
+   "legs": 3,
+   "usdt_pair_qvol": 973513,
+   "usdc_pair_qvol": 51431
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->MX->USDT",
+   "asset": "MX",
+   "net_pct": -0.2651,
+   "legs": 3,
+   "usdt_pair_qvol": 987044,
+   "usdc_pair_qvol": 118519
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->HYPE->USDC->USDT",
+   "asset": "HYPE",
+   "net_pct": -0.2813,
+   "legs": 3,
+   "usdt_pair_qvol": 343583,
+   "usdc_pair_qvol": 63053
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->MX->USDC->USDT",
+   "asset": "MX",
+   "net_pct": -0.2872,
+   "legs": 3,
+   "usdt_pair_qvol": 987044,
+   "usdc_pair_qvol": 118519
+  },
+  {
+   "ex": "okx",
+   "path": "USDT->USDC->XRP->USDT",
+   "asset": "XRP",
+   "net_pct": -0.2898,
+   "legs": 3,
+   "usdt_pair_qvol": 6408911,
+   "usdc_pair_qvol": 280780
+  },
+  {
+   "ex": "kucoin",
+   "path": "USDT->USDC->XRP->USDT",
+   "asset": "XRP",
+   "net_pct": -0.2918,
+   "legs": 3,
+   "usdt_pair_qvol": 10329358,
+   "usdc_pair_qvol": 204531
+  },
+  {
+   "ex": "kucoin",
+   "path": "USDT->ETH->USDC->USDT",
+   "asset": "ETH",
+   "net_pct": -0.2957,
+   "legs": 3,
+   "usdt_pair_qvol": 23478983,
+   "usdc_pair_qvol": 2254748
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->AAVE->USDC->USDT",
+   "asset": "AAVE",
+   "net_pct": -0.2962,
+   "legs": 3,
+   "usdt_pair_qvol": 62150,
+   "usdc_pair_qvol": 25473
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->DOGE->USDC->USDT",
+   "asset": "DOGE",
+   "net_pct": -0.2965,
+   "legs": 3,
+   "usdt_pair_qvol": 2173453,
+   "usdc_pair_qvol": 25726
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->XMR->USDT",
+   "asset": "XMR",
+   "net_pct": -0.2971,
+   "legs": 3,
+   "usdt_pair_qvol": 2750137,
+   "usdc_pair_qvol": 78339
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->XPL->USDT",
+   "asset": "XPL",
+   "net_pct": -0.2984,
+   "legs": 3,
+   "usdt_pair_qvol": 8994789,
+   "usdc_pair_qvol": 55032
+  },
+  {
+   "ex": "bitget",
+   "path": "USDT->BTC->USDC->USDT",
+   "asset": "BTC",
+   "net_pct": -0.2984,
+   "legs": 3,
+   "usdt_pair_qvol": 24831266,
+   "usdc_pair_qvol": 1111203
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->USDC->HYPE->USDT",
+   "asset": "HYPE",
+   "net_pct": -0.299,
+   "legs": 3,
+   "usdt_pair_qvol": 343583,
+   "usdc_pair_qvol": 63053
+  },
+  {
+   "ex": "mexc",
+   "path": "USDT->HBAR->USDC->USDT",
+   "asset": "HBAR",
+   "net_pct": -0.2996,
+   "legs": 3,
+   "usdt_pair_qvol": 75484,
+   "usdc_pair_qvol": 55772
+  },
+  {
+   "ex": "bitget",
+   "path": "USDT->U->USDC->USDT",
+   "asset": "U",
+   "net_pct": -0.2997,
+   "legs": 3,
+   "usdt_pair_qvol": 134454,
+   "usdc_pair_qvol": 61063
+  }
+ ],
+ "triangles": [
+  {
+   "type": "triangular",
+   "ex": "mexc",
+   "path": "USDT->ETH->BTC->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.165,
+   "min_leg_qvol_usd": 55622,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.1775
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "mexc",
+   "path": "USDC->ETH->BTC->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.1859,
+   "min_leg_qvol_usd": 55554,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.2113
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "mexc",
+   "path": "USDT->BTC->ETH->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.2056,
+   "min_leg_qvol_usd": 55622,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.2084
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "mexc",
+   "path": "USDC->BTC->ETH->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.2176,
+   "min_leg_qvol_usd": 55554,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.2244
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDT->ETH->XRP->USDT",
+   "asset": "XRP",
+   "cross": "ETH",
+   "stable": "USDT",
+   "net_pct": -0.2837,
+   "min_leg_qvol_usd": 157968,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.34
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDT->BGB->BTC->USDT",
+   "asset": "BGB",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.287,
+   "min_leg_qvol_usd": 4777939,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.4195
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDT->BTC->LTC->USDT",
+   "asset": "LTC",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.2916,
+   "min_leg_qvol_usd": 498159,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.4237
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDC->BTC->LTC->USDC",
+   "asset": "LTC",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.2922,
+   "min_leg_qvol_usd": 124382,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.4669
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDT->ETH->BTC->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.299,
+   "min_leg_qvol_usd": 1261494,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.3167
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USD->BTC->SOL->USD",
+   "asset": "SOL",
+   "cross": "BTC",
+   "stable": "USD",
+   "net_pct": -0.3005,
+   "min_leg_qvol_usd": 56232,
+   "verified": {
+    "status": "ok",
+    "net_pct": -0.3653
+   }
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDC->SOL->BTC->USDC",
+   "asset": "SOL",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.3006,
+   "min_leg_qvol_usd": 443510
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDT->SOL->BTC->USDT",
+   "asset": "SOL",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3048,
+   "min_leg_qvol_usd": 6125238
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDT->ETH->KCS->USDT",
+   "asset": "KCS",
+   "cross": "ETH",
+   "stable": "USDT",
+   "net_pct": -0.3054,
+   "min_leg_qvol_usd": 131562
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDC->ETH->XRP->USDC",
+   "asset": "XRP",
+   "cross": "ETH",
+   "stable": "USDC",
+   "net_pct": -0.307,
+   "min_leg_qvol_usd": 157821
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDT->BTC->KCS->USDT",
+   "asset": "KCS",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3073,
+   "min_leg_qvol_usd": 131562
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDT->ETH->XMR->USDT",
+   "asset": "XMR",
+   "cross": "ETH",
+   "stable": "USDT",
+   "net_pct": -0.3089,
+   "min_leg_qvol_usd": 2172596
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDC->ETH->BTC->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.31,
+   "min_leg_qvol_usd": 449365
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDT->ETH->BTC->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3112,
+   "min_leg_qvol_usd": 9554753
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USD->ETH->BTC->USD",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USD",
+   "net_pct": -0.3126,
+   "min_leg_qvol_usd": 218277
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDC->ETH->BTC->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.3131,
+   "min_leg_qvol_usd": 1260364
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USDT->BTC->SOL->USDT",
+   "asset": "SOL",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3144,
+   "min_leg_qvol_usd": 56282
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USDT->ETH->BTC->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3152,
+   "min_leg_qvol_usd": 218473
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDT->BGB->ETH->USDT",
+   "asset": "BGB",
+   "cross": "ETH",
+   "stable": "USDT",
+   "net_pct": -0.3159,
+   "min_leg_qvol_usd": 4777939
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USDC->ETH->BTC->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.3176,
+   "min_leg_qvol_usd": 218271
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USDT->BTC->ETH->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3183,
+   "min_leg_qvol_usd": 218473
+  },
+  {
+   "type": "triangular",
+   "ex": "kucoin",
+   "path": "USDC->BTC->ETH->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.3204,
+   "min_leg_qvol_usd": 1260364
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USD->BTC->ETH->USD",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USD",
+   "net_pct": -0.3209,
+   "min_leg_qvol_usd": 218277
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDT->BTC->ETH->USDT",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDT",
+   "net_pct": -0.3222,
+   "min_leg_qvol_usd": 9554753
+  },
+  {
+   "type": "triangular",
+   "ex": "bitget",
+   "path": "USDC->BTC->ETH->USDC",
+   "asset": "ETH",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.3233,
+   "min_leg_qvol_usd": 449365
+  },
+  {
+   "type": "triangular",
+   "ex": "okx",
+   "path": "USDC->BTC->SOL->USDC",
+   "asset": "SOL",
+   "cross": "BTC",
+   "stable": "USDC",
+   "net_pct": -0.3277,
+   "min_leg_qvol_usd": 56230
+  }
+ ],
+ "inventory_loops": [],
+ "top_spreads_all": [
+  {
+   "asset": "CC",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "mexc",
+   "net_pct": 19.442,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.10954329992753926,
+    "sell_vwap": 0.09669705923168762,
+    "fill_usd": 1711,
+    "gross_pct": -11.727,
+    "net_pct": -11.977
+   }
+  },
+  {
+   "asset": "UPC",
+   "quote": "USDT",
+   "buy_ex": "mexc",
+   "sell_ex": "bitget",
+   "net_pct": 18.987,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.1613880315903234,
+    "sell_vwap": 0.18944507686439463,
+    "fill_usd": 485,
+    "gross_pct": 17.385,
+    "net_pct": 17.235
+   },
+   "rebalance": "unverified"
+  },
+  {
+   "asset": "BIGTIME",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": 18.896,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.00550556526070448,
+    "sell_vwap": 0.005239926335003168,
+    "fill_usd": 960,
+    "gross_pct": -4.825,
+    "net_pct": -5.125
+   }
+  },
+  {
+   "asset": "NIGHT",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "okx",
+   "net_pct": 6.933,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.017041780351626252,
+    "sell_vwap": 0.017339597498426656,
+    "fill_usd": 2000,
+    "gross_pct": 1.748,
+    "net_pct": 1.448
+   },
+   "rebalance": "unverified"
+  },
+  {
+   "asset": "AI",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "mexc",
+   "net_pct": 6.33,
+   "verified": {
+    "status": "error: KeyError"
+   }
+  },
+  {
+   "asset": "ONE",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": 5.302,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.0007166802528555938,
+    "sell_vwap": 0.0005447851190380789,
+    "fill_usd": 663,
+    "gross_pct": -23.985,
+    "net_pct": -24.285
+   }
+  },
+  {
+   "asset": "ZEC",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "kucoin",
+   "net_pct": 5.196,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 468.9991028047164,
+    "sell_vwap": 494.51869460362656,
+    "fill_usd": 2000,
+    "gross_pct": 5.441,
+    "net_pct": 5.141
+   },
+   "rebalance": "NO COMMON OPEN CHAIN"
+  },
+  {
+   "asset": "KITE",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "okx",
+   "net_pct": 3.834,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.10428978588020818,
+    "sell_vwap": 0.09386376367006073,
+    "fill_usd": 2000,
+    "gross_pct": -9.997,
+    "net_pct": -10.297
+   }
+  },
+  {
+   "asset": "BERA",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "okx",
+   "net_pct": 3.146,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.14957950274283752,
+    "sell_vwap": 0.14703370403606159,
+    "fill_usd": 2000,
+    "gross_pct": -1.702,
+    "net_pct": -2.002
+   }
+  },
+  {
+   "asset": "COTI",
+   "quote": "USDT",
+   "buy_ex": "gate",
+   "sell_ex": "bitget",
+   "net_pct": 3.132,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.010413645592444834,
+    "sell_vwap": 0.010754985769746634,
+    "fill_usd": 462,
+    "gross_pct": 3.278,
+    "net_pct": 2.978
+   },
+   "rebalance": "NO COMMON OPEN CHAIN"
+  },
+  {
+   "asset": "ZK",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": 1.822,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.007553353081856141,
+    "sell_vwap": 0.0059159718282323194,
+    "fill_usd": 1233,
+    "gross_pct": -21.678,
+    "net_pct": -21.978
+   }
+  },
+  {
+   "asset": "GMT",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": 0.872,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.006244134292231493,
+    "sell_vwap": 0.003004939685270016,
+    "fill_usd": 677,
+    "gross_pct": -51.876,
+    "net_pct": -52.176
+   }
+  },
+  {
+   "asset": "POWER",
+   "quote": "USDT",
+   "buy_ex": "mexc",
+   "sell_ex": "bitget",
+   "net_pct": 0.413,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.08537624846409218,
+    "sell_vwap": 0.08490144337099044,
+    "fill_usd": 895,
+    "gross_pct": -0.556,
+    "net_pct": -0.706
+   }
+  },
+  {
+   "asset": "ZAMA",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": 0.376,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.04101956806752734,
+    "sell_vwap": 0.03742299925272303,
+    "fill_usd": 534,
+    "gross_pct": -8.768,
+    "net_pct": -9.068
+   }
+  },
+  {
+   "asset": "IOTA",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": 0.327,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.0319275388010031,
+    "sell_vwap": 0.0237828452033383,
+    "fill_usd": 1094,
+    "gross_pct": -25.51,
+    "net_pct": -25.81
+   }
+  },
+  {
+   "asset": "AIO",
+   "quote": "USDT",
+   "buy_ex": "kucoin",
+   "sell_ex": "gate",
+   "net_pct": 0.283,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.06695423946377435,
+    "sell_vwap": 0.06669956978627377,
+    "fill_usd": 2000,
+    "gross_pct": -0.38,
+    "net_pct": -0.68
+   }
+  },
+  {
+   "asset": "FB",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "gate",
+   "net_pct": 0.122,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.3768278981365936,
+    "sell_vwap": 0.3448765791304621,
+    "fill_usd": 667,
+    "gross_pct": -8.479,
+    "net_pct": -8.879
+   }
+  },
+  {
+   "asset": "PIPEDOG",
+   "quote": "USDT",
+   "buy_ex": "kucoin",
+   "sell_ex": "gate",
+   "net_pct": 0.075,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.002434116569510739,
+    "sell_vwap": 0.00233875744239153,
+    "fill_usd": 830,
+    "gross_pct": -3.918,
+    "net_pct": -4.218
+   }
+  },
+  {
+   "asset": "BTW",
+   "quote": "USDT",
+   "buy_ex": "bitget",
+   "sell_ex": "mexc",
+   "net_pct": 0.074,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.33385001769320777,
+    "sell_vwap": 0.3324850709837915,
+    "fill_usd": 2000,
+    "gross_pct": -0.409,
+    "net_pct": -0.559
+   }
+  },
+  {
+   "asset": "PROS",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "bitget",
+   "net_pct": 0.052,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.4556043163690398,
+    "sell_vwap": 0.36997201576842553,
+    "fill_usd": 2000,
+    "gross_pct": -18.795,
+    "net_pct": -19.095
+   }
+  },
+  {
+   "asset": "BICO",
+   "quote": "USDT",
+   "buy_ex": "bitget",
+   "sell_ex": "mexc",
+   "net_pct": 0.043,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.02582226509641102,
+    "sell_vwap": 0.025855188377457577,
+    "fill_usd": 2000,
+    "gross_pct": 0.127,
+    "net_pct": -0.023
+   }
+  },
+  {
+   "asset": "KII",
+   "quote": "USDT",
+   "buy_ex": "bitget",
+   "sell_ex": "kucoin",
+   "net_pct": 0.007,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.07165475925201494,
+    "sell_vwap": 0.0711555784906203,
+    "fill_usd": 1236,
+    "gross_pct": -0.697,
+    "net_pct": -0.897
+   }
+  },
+  {
+   "asset": "BLUAI",
+   "quote": "USDT",
+   "buy_ex": "mexc",
+   "sell_ex": "htx",
+   "net_pct": -0.013,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.012247903959851295,
+    "sell_vwap": 0.0120390743008935,
+    "fill_usd": 1014,
+    "gross_pct": -1.705,
+    "net_pct": -1.955
+   }
+  },
+  {
+   "asset": "WAL",
+   "quote": "USDT",
+   "buy_ex": "kucoin",
+   "sell_ex": "bitget",
+   "net_pct": -0.018,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.022118328488957555,
+    "sell_vwap": 0.02200830810738648,
+    "fill_usd": 2000,
+    "gross_pct": -0.497,
+    "net_pct": -0.697
+   }
+  },
+  {
+   "asset": "OP",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "htx",
+   "net_pct": -0.042,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.08518959734684348,
+    "sell_vwap": 0.08530052472660436,
+    "fill_usd": 2000,
+    "gross_pct": 0.13,
+    "net_pct": -0.17
+   }
+  },
+  {
+   "asset": "ACN",
+   "quote": "USDT",
+   "buy_ex": "mexc",
+   "sell_ex": "htx",
+   "net_pct": -0.045,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.0049256257971279915,
+    "sell_vwap": 0.00483068758986208,
+    "fill_usd": 1184,
+    "gross_pct": -1.927,
+    "net_pct": -2.177
+   }
+  },
+  {
+   "asset": "GWEI",
+   "quote": "USDT",
+   "buy_ex": "htx",
+   "sell_ex": "bitget",
+   "net_pct": -0.05,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.02314345340343014,
+    "sell_vwap": 0.02282455979810559,
+    "fill_usd": 298,
+    "gross_pct": -1.378,
+    "net_pct": -1.678
+   }
+  },
+  {
+   "asset": "NES",
+   "quote": "USDT",
+   "buy_ex": "okx",
+   "sell_ex": "kucoin",
+   "net_pct": -0.052,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.20897183736317335,
+    "sell_vwap": 0.20897178047813145,
+    "fill_usd": 2000,
+    "gross_pct": -0.0,
+    "net_pct": -0.2
+   }
+  },
+  {
+   "asset": "RAVE",
+   "quote": "USDT",
+   "buy_ex": "kucoin",
+   "sell_ex": "bitget",
+   "net_pct": -0.056,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.2776672560553698,
+    "sell_vwap": 0.2775161613930313,
+    "fill_usd": 2000,
+    "gross_pct": -0.054,
+    "net_pct": -0.254
+   }
+  },
+  {
+   "asset": "PLUME",
+   "quote": "USDT",
+   "buy_ex": "mexc",
+   "sell_ex": "kucoin",
+   "net_pct": -0.067,
+   "verified": {
+    "status": "ok",
+    "buy_vwap": 0.013291,
+    "sell_vwap": 0.01329672584336745,
+    "fill_usd": 2000,
+    "gross_pct": 0.043,
+    "net_pct": -0.107
+   }
+  }
+ ]
+}
