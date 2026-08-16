@@ -834,7 +834,183 @@
    "max_ltv": 0.75
   }
  ],
- "skins": [],
+ "skins": [
+  {
+   "item": "P250 | Muertos (Factory New)",
+   "skinport_min": 26.96,
+   "steam_suggested": 57.18,
+   "discount_pct": 52.9,
+   "listings": 47
+  },
+  {
+   "item": "AWP | Sovereign Flame (Field-Tested)",
+   "skinport_min": 127.4,
+   "steam_suggested": 268.23,
+   "discount_pct": 52.5,
+   "listings": 23
+  },
+  {
+   "item": "Five-SeveN | Boost Protocol (Factory New)",
+   "skinport_min": 13.52,
+   "steam_suggested": 28.26,
+   "discount_pct": 52.2,
+   "listings": 82
+  },
+  {
+   "item": "USP-S | Cyrex (Factory New)",
+   "skinport_min": 44.52,
+   "steam_suggested": 92.01,
+   "discount_pct": 51.6,
+   "listings": 139
+  },
+  {
+   "item": "Glock-18 | Oxide Blaze (Factory New)",
+   "skinport_min": 5.12,
+   "steam_suggested": 10.49,
+   "discount_pct": 51.2,
+   "listings": 31
+  },
+  {
+   "item": "Dual Berettas | Royal Consorts (Factory New)",
+   "skinport_min": 38.08,
+   "steam_suggested": 77.29,
+   "discount_pct": 50.7,
+   "listings": 34
+  },
+  {
+   "item": "Desert Eagle | The Bronze (Factory New)",
+   "skinport_min": 35.17,
+   "steam_suggested": 70.3,
+   "discount_pct": 50.0,
+   "listings": 49
+  },
+  {
+   "item": "Five-SeveN | Heat Treated (Factory New)",
+   "skinport_min": 20.51,
+   "steam_suggested": 39.83,
+   "discount_pct": 48.5,
+   "listings": 71
+  },
+  {
+   "item": "MP9 | Sand Scale (Factory New)",
+   "skinport_min": 8.26,
+   "steam_suggested": 16,
+   "discount_pct": 48.4,
+   "listings": 48
+  },
+  {
+   "item": "Desert Eagle | Conspiracy (Factory New)",
+   "skinport_min": 22.05,
+   "steam_suggested": 42.71,
+   "discount_pct": 48.4,
+   "listings": 175
+  },
+  {
+   "item": "MP9 | Latte Rush (Factory New)",
+   "skinport_min": 69.38,
+   "steam_suggested": 133.77,
+   "discount_pct": 48.1,
+   "listings": 73
+  },
+  {
+   "item": "MP9 | Latte Rush (Minimal Wear)",
+   "skinport_min": 38.65,
+   "steam_suggested": 74.22,
+   "discount_pct": 47.9,
+   "listings": 65
+  },
+  {
+   "item": "FAMAS | Decommissioned (Factory New)",
+   "skinport_min": 9.45,
+   "steam_suggested": 17.83,
+   "discount_pct": 47.0,
+   "listings": 30
+  },
+  {
+   "item": "P250 | Kintsugi (Factory New)",
+   "skinport_min": 20.19,
+   "steam_suggested": 37.99,
+   "discount_pct": 46.9,
+   "listings": 31
+  },
+  {
+   "item": "Glock-18 | Bunsen Burner (Factory New)",
+   "skinport_min": 8.32,
+   "steam_suggested": 15.46,
+   "discount_pct": 46.2,
+   "listings": 62
+  },
+  {
+   "item": "Glock-18 | Ironwork (Factory New)",
+   "skinport_min": 53.36,
+   "steam_suggested": 97.22,
+   "discount_pct": 45.1,
+   "listings": 40
+  },
+  {
+   "item": "AK-47 | Blue Laminate (Factory New)",
+   "skinport_min": 37.83,
+   "steam_suggested": 68.54,
+   "discount_pct": 44.8,
+   "listings": 163
+  },
+  {
+   "item": "M4A4 | Hellish (Minimal Wear)",
+   "skinport_min": 39.95,
+   "steam_suggested": 72.15,
+   "discount_pct": 44.6,
+   "listings": 118
+  },
+  {
+   "item": "FAMAS | Mecha Industries (Factory New)",
+   "skinport_min": 134.78,
+   "steam_suggested": 243.14,
+   "discount_pct": 44.6,
+   "listings": 80
+  },
+  {
+   "item": "AK-47 | Aphrodite (Factory New)",
+   "skinport_min": 272.75,
+   "steam_suggested": 491.97,
+   "discount_pct": 44.6,
+   "listings": 22
+  },
+  {
+   "item": "AWP | LongDog (Minimal Wear)",
+   "skinport_min": 169.94,
+   "steam_suggested": 305.06,
+   "discount_pct": 44.3,
+   "listings": 40
+  },
+  {
+   "item": "Glock-18 | Grinder (Factory New)",
+   "skinport_min": 15.36,
+   "steam_suggested": 27.55,
+   "discount_pct": 44.2,
+   "listings": 57
+  },
+  {
+   "item": "MP9 | Latte Rush (Field-Tested)",
+   "skinport_min": 13.95,
+   "steam_suggested": 25,
+   "discount_pct": 44.2,
+   "listings": 106
+  },
+  {
+   "item": "M4A1-S | Solitude (Factory New)",
+   "skinport_min": 16.48,
+   "steam_suggested": 29.36,
+   "discount_pct": 43.9,
+   "listings": 236
+  },
+  {
+   "item": "Galil AR | Stone Cold (Factory New)",
+   "skinport_min": 31.28,
+   "steam_suggested": 55.6,
+   "discount_pct": 43.7,
+   "listings": 31
+  }
+ ],
  "nft": [
   {
    "collection": "mad_lads",
@@ -866,5 +1042,7 @@
    "listed": 983,
    "vol24h_sol": 0.0
   }
- ]
+ ],
+ "skins_universe": 25272,
+ "skins_median_discount_pct": 22.1
 }
