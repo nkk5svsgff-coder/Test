@@ -1,0 +1,7 @@
+data/results.jsonl
+data/pilot*.jsonl
+data/rows.json
+scan.log
+nohup.out
+__pycache__/
+*.pyc
