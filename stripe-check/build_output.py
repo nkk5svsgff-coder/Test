@@ -23,7 +23,8 @@ OUT = os.path.join(D, "Software_Meta_Advertisers_FINAL_with_Stripe.xlsx")
 
 SHEET = "Software Advertisers"
 WEBSITE_COL = 3          # source column C
-INSERT_AT = 4            # new "Stripe?" column becomes D
+INSERT_AT = 4            # "Stripe?" becomes D, "Intro discount then higher price?" becomes E
+N_INSERT = 2
 
 
 def norm(u):
@@ -45,7 +46,17 @@ with open(os.path.join(D, "results.jsonl")) as f:
             continue
         res[r["url"]] = r      # later lines win (re-checks)
 
-print(f"scan results loaded: {len(res)}")
+pricing = {}
+p = os.path.join(D, "pricing_final.jsonl")
+if os.path.exists(p):
+    with open(p) as f:
+        for line in f:
+            try:
+                r = json.loads(line)
+            except Exception:
+                continue
+            pricing[r["url"]] = r
+print(f"scan results loaded: stripe={len(res)} pricing={len(pricing)}")
 
 VERDICT_TEXT = {"Yes": "Yes", "Likely": "Likely", "No": "No (no public evidence)",
                 "Unknown": "Unknown (unreachable/blocked)"}
@@ -73,15 +84,18 @@ wb = Workbook()
 wb.remove(wb.active)
 ws = wb.create_sheet(SHEET)
 
-EXTRA_HEAD = ["Stripe evidence", "Other payment tech seen", "Check status", "URL checked"]
+EXTRA_HEAD = ["Stripe evidence", "Other payment tech seen", "Check status", "URL checked",
+              "Intro-pricing evidence", "Free trial offered?"]
 counts = {"Yes": 0, "Likely": 0, "No": 0, "Unknown": 0, "": 0}
+pcounts = {"Yes": 0, "Likely": 0, "No": 0, "Unknown": 0, "": 0}
+PRICE_TEXT = {"Yes": "Yes", "Likely": "Likely", "No": "No", "Unknown": "Unknown"}
 evidence_tally = {}
 others_tally = {}
 
 for r in range(1, n_rows + 1):
     for c in range(1, n_cols_src + 1):
         sc = ws_src.cell(row=r, column=c)
-        dc_idx = c if c < INSERT_AT else c + 1
+        dc_idx = c if c < INSERT_AT else c + N_INSERT
         dc = ws.cell(row=r, column=dc_idx, value=sc.value)
         dc._style = copy(sc._style)
         if sc.hyperlink is not None:
@@ -90,8 +104,10 @@ for r in range(1, n_rows + 1):
     if r == 1:
         h = ws.cell(row=1, column=INSERT_AT, value="Stripe?")
         h._style = copy(ws_src.cell(row=1, column=1)._style)
+        h2 = ws.cell(row=1, column=INSERT_AT + 1, value="Intro discount then higher price?")
+        h2._style = copy(ws_src.cell(row=1, column=1)._style)
         for i, name in enumerate(EXTRA_HEAD):
-            hh = ws.cell(row=1, column=n_cols_src + 2 + i, value=name)
+            hh = ws.cell(row=1, column=n_cols_src + 1 + N_INSERT + i, value=name)
             hh._style = copy(ws_src.cell(row=1, column=1)._style)
         continue
 
@@ -124,8 +140,23 @@ for r in range(1, n_rows + 1):
     cell.font = FONT.get(verdict, FONT[""])
     cell.alignment = Alignment(horizontal="center", vertical="center")
 
-    for i, val in enumerate((ev, others, status, checked_url)):
-        c2 = ws.cell(row=r, column=n_cols_src + 2 + i, value=val)
+    prec = pricing.get(key) if key else None
+    if not key:
+        pv, pev, ptrial = "", "", ""
+    elif prec is None:
+        pv, pev, ptrial = "Unknown", "", ""
+    else:
+        pv = prec.get("verdict", "Unknown")
+        pev = prec.get("evidence", "") or ""
+        ptrial = "yes" if prec.get("free_trial") else ""
+        pcounts[pv] = pcounts.get(pv, 0) + 1
+    pcell = ws.cell(row=r, column=INSERT_AT + 1, value=PRICE_TEXT.get(pv, ""))
+    pcell.fill = FILL.get(pv, FILL[""])
+    pcell.font = FONT.get(pv, FONT[""])
+    pcell.alignment = Alignment(horizontal="center", vertical="center")
+
+    for i, val in enumerate((ev, others, status, checked_url, pev, ptrial)):
+        c2 = ws.cell(row=r, column=n_cols_src + 1 + N_INSERT + i, value=val)
         c2.font = Font(name="Calibri", size=9, color="595959")
 
 # widths, panes, filter
@@ -133,17 +164,25 @@ for c in range(1, n_cols_src + 1):
     letter_src = get_column_letter(c)
     dim = ws_src.column_dimensions.get(letter_src)
     if dim is not None and dim.width:
-        ws.column_dimensions[get_column_letter(c if c < INSERT_AT else c + 1)].width = dim.width
+        ws.column_dimensions[get_column_letter(c if c < INSERT_AT else c + N_INSERT)].width = dim.width
 ws.column_dimensions[get_column_letter(INSERT_AT)].width = 22
-for i, w in enumerate((44, 30, 18, 46)):
-    ws.column_dimensions[get_column_letter(n_cols_src + 2 + i)].width = w
+ws.column_dimensions[get_column_letter(INSERT_AT + 1)].width = 26
+for i, w in enumerate((44, 30, 18, 46, 66, 14)):
+    ws.column_dimensions[get_column_letter(n_cols_src + 1 + N_INSERT + i)].width = w
 ws.freeze_panes = "A2"
-ws.auto_filter.ref = f"A1:{get_column_letter(n_cols_src + 1 + len(EXTRA_HEAD) + 1)}1"
+ws.auto_filter.ref = f"A1:{get_column_letter(n_cols_src + N_INSERT + len(EXTRA_HEAD))}1"
 ws.cell(row=1, column=INSERT_AT).comment = Comment(
     "Yes = concrete Stripe marker found on a public page (see 'Stripe evidence').\n"
     "No (no public evidence) = nothing found on homepage + pricing/checkout pages + main JS bundles; "
     "Stripe may still be used behind a login.\n"
     "Unknown = site unreachable, DNS-dead, or bot-blocked (403/429).", "Stripe check")
+ws.cell(row=1, column=INSERT_AT + 1).comment = Comment(
+    "Does the site advertise a DISCOUNTED FIRST PAYMENT that then automatically rebills at a higher price?\n"
+    "Yes  = an explicit step-up was found and the second price is verified higher than the first "
+    "(e.g. \"$1 for the first month, then $29\"), or an auto-renewal price following a cheaper intro price.\n"
+    "Likely = intro/promo wording or a stated renewal price, without a verifiable price step-up.\n"
+    "No = no such offer visible. Free trials are deliberately NOT counted as Yes.\n"
+    "Unknown = site unreachable or bot-blocked.", "Intro-pricing check")
 
 # ---------- copy Summary sheet ----------
 if "Summary" in wb_src.sheetnames:
@@ -206,6 +245,32 @@ lines = [
     ("Mobile-app rows often bill through Apple/Google in-app purchase instead - see 'Other payment tech seen'.", 10, False, None),
     ("Sites behind Cloudflare/bot protection return 403 and are marked Unknown rather than guessed.", 10, False, None),
     ("A site can also load Stripe only after a user clicks 'Subscribe', which a static fetch never triggers.", 10, False, None),
+    ("", 10, False, None),
+    ("INTRO-DISCOUNT PRICING CHECK (column E)", 12, True, None),
+    ("Question: does the site charge a DISCOUNTED FIRST PAYMENT that then automatically rebills higher?", 10, False, None),
+    ("Yes - verified step-up (second price higher than the first)", 10, False, pcounts["Yes"]),
+    ("Likely - intro/promo or renewal-price wording, step-up not verifiable", 10, False, pcounts["Likely"]),
+    ("No such offer visible", 10, False, pcounts["No"]),
+    ("Unknown (unreachable / bot-blocked)", 10, False, pcounts["Unknown"]),
+    ("", 10, False, None),
+    ("Method: homepage + up to 4 pricing/checkout pages; text is taken from the rendered copy AND from the", 10, False, None),
+    ("JSON embedded in script blocks (Next.js/Nuxt), then every price token is examined in context.", 10, False, None),
+    ("A 'Yes' requires BOTH prices to be parsed and the later one to be genuinely higher (1.05x-60x), e.g.", 10, False, None),
+    ("'$1 for the first month, then $29', 'R$ 29,90 / primeiro mes Depois, R$ 79,90', '$17/mo then $34/mo'.", 10, False, None),
+    ("Patterns cover EN, DE, ES, FR, IT, PT, NL, PL, TR and Nordic phrasings.", 10, False, None),
+    ("", 10, False, None),
+    ("FREE TRIALS ARE EXCLUDED ON PURPOSE", 12, True, None),
+    ("You asked for discounted first payments, not trials. 'Free for 14 days, then $20/month' scores No,", 10, False, None),
+    ("and so do 'Try 3 days free, then $1/month' and 'start free, then $12/mo'. A PAID discounted first", 10, False, None),
+    ("payment does count, so '$1 trial for 7 days, then $39.99' is a Yes. The separate 'Free trial offered?'", 10, False, None),
+    ("column flags sites that advertise a free trial, so you can target or avoid them independently.", 10, False, None),
+    ("The detector scored 11/11 on a hand-built battery of these edge cases before the run.", 10, False, None),
+    ("", 10, False, None),
+    ("LIMITS ON THE INTRO-PRICING COLUMN", 12, True, None),
+    ("Prices rendered by JavaScript after page load are invisible to a static fetch (verified example:", 10, False, None),
+    ("surfshark.com, whose plan prices never appear in the HTML). Offers that only appear inside a checkout", 10, False, None),
+    ("funnel, after a quiz, or behind a login are likewise unreachable. So 'No' means 'no such offer visible", 10, False, None),
+    ("on the public pages checked' - it is not proof the company never runs intro pricing.", 10, False, None),
     ("", 10, False, None),
     ("ACCURACY SPOT-CHECK OF THIS RUN", 12, True, None),
     ("8 'Yes' rows were re-fetched independently after the scan finished: 7 re-confirmed immediately", 10, False, None),

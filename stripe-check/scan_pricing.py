@@ -36,8 +36,8 @@ os.makedirs(D, exist_ok=True)
 
 # ---------------- price + phrase vocabulary ----------------
 CUR = r"(?:[$€£₹¥]|USD|EUR|GBP|BRL|R\$|PLN|zł|CHF|SEK|NOK|DKK|CZK|Kč|HUF|Ft|RON|lei|TRY|₺|INR|MXN|COP|ARS)"
-AMT = r"\d{1,4}(?:[.,]\d{1,2})?"
-PRICE = rf"(?:{CUR}\s?{AMT}|{AMT}\s?{CUR})"
+AMT = r"\d{1,3}(?:[.,]\d{3})+(?:[.,]\d{1,2})?|\d{1,6}(?:[.,]\d{1,2})?"
+PRICE = rf"(?:{CUR}\s?(?:{AMT})|(?:{AMT})\s?{CUR})"
 
 PERIOD = r"(?:month|months|mo\b|week|weeks|wk\b|year|years|yr\b|day|days|quarter)"
 # multilingual "then / afterwards"
