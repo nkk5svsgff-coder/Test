@@ -1,0 +1,8 @@
+  100/775 1.1/s recovered={'Yes': 2, 'Likely': 2, 'No': 0, 'Unknown': 96}
+  200/775 1.1/s recovered={'Yes': 3, 'Likely': 2, 'No': 4, 'Unknown': 191}
+  300/775 1.1/s recovered={'Yes': 4, 'Likely': 5, 'No': 6, 'Unknown': 285}
+  400/775 1.1/s recovered={'Yes': 9, 'Likely': 5, 'No': 7, 'Unknown': 379}
+  500/775 1.2/s recovered={'Yes': 11, 'Likely': 6, 'No': 7, 'Unknown': 476}
+  600/775 1.2/s recovered={'Yes': 13, 'Likely': 7, 'No': 9, 'Unknown': 571}
+  700/775 1.2/s recovered={'Yes': 16, 'Likely': 9, 'No': 11, 'Unknown': 664}
+retry done 775 in 11.2m -> {'Yes': 17, 'Likely': 10, 'No': 13, 'Unknown': 735}

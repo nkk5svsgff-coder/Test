@@ -207,6 +207,15 @@ lines = [
     ("Sites behind Cloudflare/bot protection return 403 and are marked Unknown rather than guessed.", 10, False, None),
     ("A site can also load Stripe only after a user clicks 'Subscribe', which a static fetch never triggers.", 10, False, None),
     ("", 10, False, None),
+    ("ACCURACY SPOT-CHECK OF THIS RUN", 12, True, None),
+    ("8 'Yes' rows were re-fetched independently after the scan finished: 7 re-confirmed immediately", 10, False, None),
+    ("(js.stripe.com, live pk_live_ keys, STRIPE_PUBLISHABLE vars, WooCommerce Stripe gateway handles).", 10, False, None),
+    ("1 could not be re-confirmed because the page content had changed between the two fetches.", 10, False, None),
+    ("29 of the 530 'Yes' rows rest solely on the WooCommerce-Stripe plugin marker (that plugin enqueues its", 10, False, None),
+    ("own assets only when the Stripe gateway is switched on, so it is good but slightly weaker evidence).", 10, False, None),
+    ("Known false negatives confirmed by hand: Figma, Vercel, Calendly, Airtable - all real Stripe customers", 10, False, None),
+    ("that publish no public trace because billing sits behind their login.", 10, False, None),
+    ("", 10, False, None),
     ("MOST COMMON EVIDENCE MARKERS", 12, True, None),
 ]
 for k, v in sorted(evidence_tally.items(), key=lambda kv: -kv[1])[:12]:
