@@ -1,39 +1,39 @@
 {
- "ts": "2026-08-16T20:57:49Z",
- "candidates": 24,
+ "ts": "2026-08-17T04:42:19Z",
+ "candidates": 21,
  "verified": [
   {
-   "title": "Philadelphia Union vs. Inter Miami CF",
-   "slug": "mls-phi-mia-2026-08-19",
+   "title": "Be\u015fikta\u015f JK vs. FK Kauno \u017dalgiris",
+   "slug": "uel-bes-kau-2026-08-20",
    "n": 3,
-   "sum_bid_gamma": 1.03,
+   "sum_bid_gamma": 1.012,
    "questions": [
-    "Will Philadelphia Union win on 2026-08-19?",
-    "Will Philadelphia Union vs. Inter Miami CF end in a draw?",
-    "Will Inter Miami CF win on 2026-08-19?"
+    "Will Be\u015fikta\u015f JK win on 2026-08-20?",
+    "Will Be\u015fikta\u015f JK vs. FK Kauno \u017dalgiris end in a draw?",
+    "Will FK Kauno \u017dalgiris win on 2026-08-20?"
    ],
    "yes_tokens": [
-    "44079233515026352722281659097810931985731851640259958034772455418824019454079",
-    "77857954560605549351540531792129109409445288019693163356953534772494801892268",
-    "48136970584628486871664789014637109838679337898139877566090533235965570199935"
+    "12314894218835682939501383640347376280537994742117209995156385926677473660033",
+    "31606190588811253754445115735371975503811641307478322619737077782578594125971",
+    "13838934806643695802111894727173403484828479760527337423741639328992382573491"
    ],
-   "vol24h": 309.225805,
+   "vol24h": 220.00318,
    "live": {
     "status": "ok",
-    "sum_bid_live": 1.03,
-    "edge_per_set": 0.03,
-    "capital_per_set": 1.97,
-    "ret_pct": 1.523,
-    "sets_at_best_bid": 67.3,
-    "profit_at_best_depth": 2.02,
-    "weakest_bid": 0.24
+    "sum_bid_live": 1.012,
+    "edge_per_set": 0.012,
+    "capital_per_set": 1.988,
+    "ret_pct": 0.604,
+    "sets_at_best_bid": 5.0,
+    "profit_at_best_depth": 0.06,
+    "weakest_bid": 0.052
    }
   },
   {
    "title": "RC Celta de Vigo vs. CA Osasuna",
    "slug": "lal-cel-osa-2026-08-16",
    "n": 3,
-   "sum_bid_gamma": 1.02,
+   "sum_bid_gamma": 1.01,
    "questions": [
     "Will RC Celta de Vigo win on 2026-08-16?",
     "Will RC Celta de Vigo vs. CA Osasuna end in a draw?",
@@ -44,56 +44,203 @@
     "73318360885269735093409624568816680591618942277547791514798913754711732423291",
     "91153572835028594790774119985563388558642820697673210115889504505368861594333"
    ],
-   "vol24h": 412.62,
+   "vol24h": 1142.51,
    "live": {
     "status": "ok",
-    "sum_bid_live": 1.02,
-    "edge_per_set": 0.02,
-    "capital_per_set": 1.98,
-    "ret_pct": 1.01,
-    "sets_at_best_bid": 63.1,
-    "profit_at_best_depth": 1.26,
+    "sum_bid_live": 1.01,
+    "edge_per_set": 0.01,
+    "capital_per_set": 1.99,
+    "ret_pct": 0.503,
+    "sets_at_best_bid": 58.1,
+    "profit_at_best_depth": 0.58,
     "weakest_bid": 0.24
    }
   },
   {
-   "title": "GPU rental prices (H100) end of August?",
-   "slug": "gpu-rental-prices-h100-end-of-august-1785423806191",
-   "n": 6,
-   "sum_bid_gamma": 1.013,
+   "title": "Pro Football: AFC South Champion",
+   "slug": "pro-football-afc-south-champion",
+   "n": 5,
+   "sum_bid_gamma": 1.02,
    "questions": [
-    "Will the Ornn H100 Index be less than $2.25 on August 31, 2026?",
-    "Will the Ornn H100 Index be between $2.25 and $2.50 on August 31, 2026?",
-    "Will the Ornn H100 Index be between $2.50 and $2.75 on August 31, 2026?",
-    "Will the Ornn H100 Index be between $2.75 and $3.00 on August 31, 2026?",
-    "Will the Ornn H100 Index be between $3.00 and $3.25 on August 31, 2026?",
-    "Will the Ornn H100 Index be at least $3.25 on August 31, 2026?"
+    "Will Houston Texans win the 2026 AFC South?",
+    "Will Indianapolis Colts win the 2026 AFC South?",
+    "Will Jacksonville Jaguars win the 2026 AFC South?",
+    "Will Tennessee Titans win the 2026 AFC South?",
+    "Will another team win the 2026 AFC South?"
    ],
    "yes_tokens": [
-    "60551417045926064774955485746095668656810182128025916572113125221013593582759",
-    "45223510575251946364913358320688040154863570740282510460784077877950617488798",
-    "50273899440704277721000877732115908692070536044016076176997243518999498736579",
-    "27877589622138780419419503051417689781220667590045310715011601777668092133689",
-    "55329995566096686457882879316729854413601087344736994157416645448273641105980",
-    "50718383834908720608595816382940139060155328836321011714134353852620026318890"
+    "20489328000616241033829805962474251976225765375725674381676329079627273114445",
+    "39427184154366223149402813325457082798849175255745772500204517584413768300784",
+    "58325075414868530721886899882099926375348061732128027695016410399294849074321",
+    "74438406786080339860200231954857772412892572695267812184464141060212707836981",
+    "85231467463260828146721788700817595306524044869750387119262739080447850270125"
    ],
-   "vol24h": 3223.2675,
+   "vol24h": 586.222467,
+   "live": {
+    "status": "book_unavailable"
+   }
+  },
+  {
+   "title": "Al Ta'ee Saudi Club vs. Al Qadisiyah Saudi Club",
+   "slug": "skc-tae-qad-2026-08-17",
+   "n": 3,
+   "sum_bid_gamma": 1.007,
+   "questions": [
+    "Will Al Ta'ee Saudi Club win on 2026-08-17?",
+    "Will Al Ta'ee Saudi Club vs. Al Qadisiyah Saudi Club end in a draw?",
+    "Will Al Qadisiyah Saudi Club win on 2026-08-17?"
+   ],
+   "yes_tokens": [
+    "113219138126993623181428124055621949704049893420580424888604459476791415761508",
+    "76304209002940764586068144387491945046573739622906632578926580474576006017857",
+    "12929315684568528578350902683823107984439580239046554891101266649548350367319"
+   ],
+   "vol24h": 379.367865,
    "live": {
     "status": "ok",
-    "sum_bid_live": 1.013,
-    "edge_per_set": 0.013,
-    "capital_per_set": 4.987,
-    "ret_pct": 0.261,
-    "sets_at_best_bid": 26.1,
-    "profit_at_best_depth": 0.34,
+    "sum_bid_live": 1.007,
+    "edge_per_set": 0.007,
+    "capital_per_set": 1.993,
+    "ret_pct": 0.351,
+    "sets_at_best_bid": 0.0,
+    "profit_at_best_depth": 0.0,
+    "weakest_bid": 0.027
+   }
+  },
+  {
+   "title": "Fed Decision in December?",
+   "slug": "fed-decision-in-december-20260729232808632",
+   "n": 5,
+   "sum_bid_gamma": 1.01,
+   "questions": [
+    "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+    "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+    "Will there be no change in Fed interest rates after the December 2026 meeting?",
+    "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+    "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?"
+   ],
+   "yes_tokens": [
+    "17640596861394454242836532536014033416733783473450136742726948856144855149507",
+    "77367448845023382525249480243608609306658725883285195065573683809293972009019",
+    "42865728742506860386768556888821101266630139112044622335353850919229585308601",
+    "111662129652828266889360374468657435151479595863413519836161861837506140152890",
+    "35090254409399344650860070211816464534198960801264823587796928404808383727584"
+   ],
+   "vol24h": 2758.29599,
+   "live": {
+    "status": "ok",
+    "sum_bid_live": 1.01,
+    "edge_per_set": 0.01,
+    "capital_per_set": 3.99,
+    "ret_pct": 0.251,
+    "sets_at_best_bid": 782.0,
+    "profit_at_best_depth": 7.82,
+    "weakest_bid": 0.008
+   }
+  },
+  {
+   "title": "Highest temperature in Buenos Aires on August 18?",
+   "slug": "highest-temperature-in-buenos-aires-on-august-18-2026",
+   "n": 11,
+   "sum_bid_gamma": 1.024,
+   "questions": [
+    "Will the highest temperature in Buenos Aires be 8\u00b0C or below on August 18?",
+    "Will the highest temperature in Buenos Aires be 9\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 10\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 11\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 12\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 13\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 14\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 15\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 16\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 17\u00b0C on August 18?",
+    "Will the highest temperature in Buenos Aires be 18\u00b0C or higher on August 18?"
+   ],
+   "yes_tokens": [
+    "31913732305995526624710390869802187628739547720021657339993446784153477948427",
+    "65007311202981956368547988921601001985977897854707146232330221529229070115292",
+    "90525560069168304517966020909295444866270330501642181271375887244293980320009",
+    "107788934023191227008742235853953586106824633127173035394262724696306448248141",
+    "17345668129590804080697994773918177548555633363508410271011896026444222617605",
+    "3893076606052395601996991964402009064078755317457330879953883938129163435981",
+    "55557556325225263043241098726784830729358718012896025203205638348295155211835",
+    "38917108500901734459772969671375479689352052583040194063074621113266322283718",
+    "68661785877668562026567632575741667494033352496001838174788648219521460342089",
+    "46090022324883239513951934563446477608732096648561781246937873500441629248231",
+    "22091206601216189301098361580522360104657014479901137130603809320395882375915"
+   ],
+   "vol24h": 1997.859116,
+   "live": {
+    "status": "ok",
+    "sum_bid_live": 1.024,
+    "edge_per_set": 0.024,
+    "capital_per_set": 9.976,
+    "ret_pct": 0.241,
+    "sets_at_best_bid": 4.0,
+    "profit_at_best_depth": 0.1,
     "weakest_bid": 0.002
+   }
+  },
+  {
+   "title": "Fed Decision in October?",
+   "slug": "fed-decision-in-october-20260617190323537",
+   "n": 5,
+   "sum_bid_gamma": 1.009,
+   "questions": [
+    "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+    "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+    "Will there be no change in Fed interest rates after the October 2026 meeting?",
+    "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?"
+   ],
+   "yes_tokens": [
+    "17010377994663817312158123655937348199252960045746746128731746451645055725586",
+    "33268510350568915228897273528353467773422190590579607471427765079749830445947",
+    "111061902544814266207267295505639408607400625795891618462682726460921782993748",
+    "55159722761418013044126414276680602270318000841690689684819994448621694923050",
+    "18246296022868501258060085368606280205967114341141276439803424448463050819498"
+   ],
+   "vol24h": 10318.865986,
+   "live": {
+    "status": "ok",
+    "sum_bid_live": 1.009,
+    "edge_per_set": 0.009,
+    "capital_per_set": 3.991,
+    "ret_pct": 0.226,
+    "sets_at_best_bid": 100.0,
+    "profit_at_best_depth": 0.9,
+    "weakest_bid": 0.009
+   }
+  },
+  {
+   "title": "Pro Football: NFC West Champion  ",
+   "slug": "pro-football-nfc-west-champion",
+   "n": 5,
+   "sum_bid_gamma": 1.008,
+   "questions": [
+    "Will Arizona Cardinals win the 2026 NFC West?",
+    "Will Los Angeles Rams win the 2026 NFC West?",
+    "Will San Francisco 49ers win the 2026 NFC West?",
+    "Will Seattle Seahawks win the 2026 NFC West?",
+    "Will another team win the 2026 NFC West?"
+   ],
+   "yes_tokens": [
+    "86879959020266143935408454353956896491258811114882377583787633063634995996979",
+    "67651919563628648241257296002300369771574695624731917225285448721651815913470",
+    "20734616218413918253286841848141420674435836328813320092973103482360094595226",
+    "82271942242710769570803784095231328067346679435915271504441012044356319382263",
+    "36549108248624398993945372848429614069179259819701097520817695601301163534334"
+   ],
+   "vol24h": 169.23,
+   "live": {
+    "status": "book_unavailable"
    }
   },
   {
    "title": "Anthropic IPO Closing Market Cap",
    "slug": "anthropic-ipo-closing-market-cap-higher-strikes",
    "n": 10,
-   "sum_bid_gamma": 1.023,
+   "sum_bid_gamma": 1.017,
    "questions": [
     "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
     "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
@@ -118,292 +265,85 @@
     "26664280622629407478832895512837601703997167704538642212577285812882259796777",
     "61384696186251209143896776425290954166574314160100170305191977932165151583313"
    ],
-   "vol24h": 2551.501793,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.022,
-    "edge_per_set": 0.022,
-    "capital_per_set": 8.978,
-    "ret_pct": 0.245,
-    "sets_at_best_bid": 6.5,
-    "profit_at_best_depth": 0.14,
-    "weakest_bid": 0.011
-   }
-  },
-  {
-   "title": "GPU rental prices (H200) end of August?",
-   "slug": "gpu-rental-prices-h200-end-of-august-1785423806391",
-   "n": 6,
-   "sum_bid_gamma": 1.01,
-   "questions": [
-    "Will the Ornn H200 Index be less than $4.00 on August 31, 2026?",
-    "Will the Ornn H200 Index be between $4.00 and $4.50 on August 31, 2026?",
-    "Will the Ornn H200 Index be between $4.50 and $5.00 on August 31, 2026?",
-    "Will the Ornn H200 Index be between $5.00 and $5.50 on August 31, 2026?",
-    "Will the Ornn H200 Index be between $5.50 and $6.00 on August 31, 2026?",
-    "Will the Ornn H200 Index be at least $6.00 on August 31, 2026?"
-   ],
-   "yes_tokens": [
-    "88131743172271344451505289681294040755848314704446985712094440833117823624281",
-    "66604963676019154592880439347469244939228198275620107899559734125432525255647",
-    "5702699975854185901544405953764526998112738945875028504490007091044517710391",
-    "59435580246839642503659457942654320819107735836830980227221468226090145678057",
-    "76369230646098201569228545530076241536952653850590607582044294937773217046915",
-    "88649562617775700265407153617532437707167372828060151411330227537307751560019"
-   ],
-   "vol24h": 464.421256,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.01,
-    "edge_per_set": 0.01,
-    "capital_per_set": 4.99,
-    "ret_pct": 0.2,
-    "sets_at_best_bid": 30.0,
-    "profit_at_best_depth": 0.3,
-    "weakest_bid": 0.08
-   }
-  },
-  {
-   "title": "James Fishback vote share in 2026 Florida Republican Governor Primary?",
-   "slug": "james-fishback-vote-share-in-2026-florida-republican-governor-primary-20260701214154078",
-   "n": 6,
-   "sum_bid_gamma": 1.009,
-   "questions": [
-    "Will James Fishback win less than 10% of votes in the Florida Republican Governor primary?",
-    "Will James Fishback win 10\u201315% of votes in the Florida Republican Governor primary?",
-    "Will James Fishback win 15\u201320% of votes in the Florida Republican Governor primary?",
-    "Will James Fishback win 20\u201325% of votes in the Florida Republican Governor primary?",
-    "Will James Fishback win 25\u201330% of votes in the Florida Republican Governor primary?",
-    "Will James Fishback at least 30% of votes in the Florida Republican Governor primary?"
-   ],
-   "yes_tokens": [
-    "73262720942346872663664065117167500642873843610967982455010649784209638670323",
-    "112116036957688310303506820098042730557583403832453406567105831601435711270210",
-    "61459253802386170975936255147633351335637405930636255846233754060962885217488",
-    "78840279279057665719291036787539954617723466442781537072878865118846379165070",
-    "24942458351240121397357733050447995143164937214063571052377307551280797762990",
-    "41883890160919625954267216057107897538112966562649023319233656618713604430073"
-   ],
-   "vol24h": 17579.529959999996,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.009,
-    "edge_per_set": 0.009,
-    "capital_per_set": 4.991,
-    "ret_pct": 0.18,
-    "sets_at_best_bid": 19.9,
-    "profit_at_best_depth": 0.18,
-    "weakest_bid": 0.011
-   }
-  },
-  {
-   "title": "Fed Decision in October?",
-   "slug": "fed-decision-in-october-20260617190323537",
-   "n": 5,
-   "sum_bid_gamma": 1.007,
-   "questions": [
-    "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
-    "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
-    "Will there be no change in Fed interest rates after the October 2026 meeting?",
-    "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-    "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?"
-   ],
-   "yes_tokens": [
-    "17010377994663817312158123655937348199252960045746746128731746451645055725586",
-    "33268510350568915228897273528353467773422190590579607471427765079749830445947",
-    "111061902544814266207267295505639408607400625795891618462682726460921782993748",
-    "55159722761418013044126414276680602270318000841690689684819994448621694923050",
-    "18246296022868501258060085368606280205967114341141276439803424448463050819498"
-   ],
-   "vol24h": 11457.015592,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.007,
-    "edge_per_set": 0.007,
-    "capital_per_set": 3.993,
-    "ret_pct": 0.175,
-    "sets_at_best_bid": 100.0,
-    "profit_at_best_depth": 0.7,
-    "weakest_bid": 0.009
-   }
-  },
-  {
-   "title": "Fed Decision in December?",
-   "slug": "fed-decision-in-december-20260729232808632",
-   "n": 5,
-   "sum_bid_gamma": 1.007,
-   "questions": [
-    "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-    "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
-    "Will there be no change in Fed interest rates after the December 2026 meeting?",
-    "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-    "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?"
-   ],
-   "yes_tokens": [
-    "17640596861394454242836532536014033416733783473450136742726948856144855149507",
-    "77367448845023382525249480243608609306658725883285195065573683809293972009019",
-    "42865728742506860386768556888821101266630139112044622335353850919229585308601",
-    "111662129652828266889360374468657435151479595863413519836161861837506140152890",
-    "35090254409399344650860070211816464534198960801264823587796928404808383727584"
-   ],
-   "vol24h": 4691.087519,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.007,
-    "edge_per_set": 0.007,
-    "capital_per_set": 3.993,
-    "ret_pct": 0.175,
-    "sets_at_best_bid": 835.0,
-    "profit_at_best_depth": 5.84,
-    "weakest_bid": 0.008
-   }
-  },
-  {
-   "title": "Fed Decision in December?",
-   "slug": "fed-decision-in-december-20260729232808632",
-   "n": 5,
-   "sum_bid_gamma": 1.007,
-   "questions": [
-    "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-    "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
-    "Will there be no change in Fed interest rates after the December 2026 meeting?",
-    "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-    "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?"
-   ],
-   "yes_tokens": [
-    "17640596861394454242836532536014033416733783473450136742726948856144855149507",
-    "77367448845023382525249480243608609306658725883285195065573683809293972009019",
-    "42865728742506860386768556888821101266630139112044622335353850919229585308601",
-    "111662129652828266889360374468657435151479595863413519836161861837506140152890",
-    "35090254409399344650860070211816464534198960801264823587796928404808383727584"
-   ],
-   "vol24h": 4691.087519,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.007,
-    "edge_per_set": 0.007,
-    "capital_per_set": 3.993,
-    "ret_pct": 0.175,
-    "sets_at_best_bid": 835.0,
-    "profit_at_best_depth": 5.84,
-    "weakest_bid": 0.008
-   }
-  },
-  {
-   "title": "Private Companies - greatest valuation growth August 2026",
-   "slug": "private-companies-greatest-valuation-growth-august-2026-20260801002128165",
-   "n": 5,
-   "sum_bid_gamma": 1.007,
-   "questions": [
-    "Will Anthropic have the greatest valuation growth in August 2026?",
-    "Will OpenAI have the greatest valuation growth in August 2026?",
-    "Will Databricks have the greatest valuation growth in August 2026?",
-    "Will Stripe have the greatest valuation growth in August 2026?",
-    "Will ByteDance have the greatest valuation growth in August 2026?"
-   ],
-   "yes_tokens": [
-    "37682060965123748609495871206076174256767467611310194056656592030791267311861",
-    "53957599838639799366750683414499092866605095182220169675799176983042352345863",
-    "21264570068252920252173224006970105869700815956638114499854216564708826177345",
-    "103280045730509456988447261025828451484167506734785835380821952295682607707832",
-    "35964396557315684807541858587547689131500781889181665843361359305570829510954"
-   ],
-   "vol24h": 2659.247519,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.007,
-    "edge_per_set": 0.007,
-    "capital_per_set": 3.993,
-    "ret_pct": 0.175,
-    "sets_at_best_bid": 21.3,
-    "profit_at_best_depth": 0.15,
-    "weakest_bid": 0.001
-   }
-  },
-  {
-   "title": "Highest temperature in Ankara on August 18?",
-   "slug": "highest-temperature-in-ankara-on-august-18-2026",
-   "n": 11,
-   "sum_bid_gamma": 1.017,
-   "questions": [
-    "Will the highest temperature in Ankara be 25\u00b0C or below on August 18?",
-    "Will the highest temperature in Ankara be 26\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 27\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 28\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 29\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 30\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 31\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 32\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 33\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 34\u00b0C on August 18?",
-    "Will the highest temperature in Ankara be 35\u00b0C or higher on August 18?"
-   ],
-   "yes_tokens": [
-    "52000198822529228359999161280856580679190129795879191496032383787423465927806",
-    "90221309045669768051856191148504164954022542671621502190367583437366741791503",
-    "108464403152640137104569717401963260344378834197160003748407502556576216695090",
-    "75317827201377654046464269011700928473146109368786763053287543090671293938696",
-    "74378525112224461223398348775189031474722917562598175375064848041603980119168",
-    "46098170879309259322941724644899955375062532754843065275716372486148712956478",
-    "88614477988794556865124643215903811332809470847338396579470014676743023179629",
-    "26275240247101743950171814220298586960545850328873189604051684501440677153095",
-    "57210794646608494266384609912743914517888927206470800837801591260097354693866",
-    "115503640169555826294475606540121697303393033441979184374784783810749942266780",
-    "107707399776126868029806578403707966434158355206830231992681486866180202751701"
-   ],
-   "vol24h": 3870.303152,
-   "live": {
-    "status": "ok",
-    "sum_bid_live": 1.017,
-    "edge_per_set": 0.017,
-    "capital_per_set": 9.983,
-    "ret_pct": 0.17,
-    "sets_at_best_bid": 5.8,
-    "profit_at_best_depth": 0.1,
-    "weakest_bid": 0.001
-   }
-  },
-  {
-   "title": "Highest temperature in Warsaw on August 18?",
-   "slug": "highest-temperature-in-warsaw-on-august-18-2026",
-   "n": 11,
-   "sum_bid_gamma": 1.016,
-   "questions": [
-    "Will the highest temperature in Warsaw be 14\u00b0C or below on August 18?",
-    "Will the highest temperature in Warsaw be 15\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 16\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 17\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 18\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 19\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 20\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 21\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 22\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 23\u00b0C on August 18?",
-    "Will the highest temperature in Warsaw be 24\u00b0C or higher on August 18?"
-   ],
-   "yes_tokens": [
-    "36842670472115161553960391484691231527865886116932857312201416640748749883571",
-    "62303320867351591935982237068561403129039991164216677157224202427839723034264",
-    "88045049901685597898407236130918360296348480537772954166176184984901014567123",
-    "35795610501031989842059781925240456366949012811662787916519307440244530078167",
-    "1128193661350927567047891754438085419436470671901348207923550000517142099470",
-    "64851991540005471241071767423136120242076379284370450670588536441948218248077",
-    "1763570276051131934906940578672369979723224193045612382958089581358465473926",
-    "100431680131824767240079926176628807062715360912979801728916713779802436464796",
-    "6351640581834763853812741355405485495060717265569019201302367598248937897377",
-    "25254382043320611244918666676466210526315546520925658255291752528280832000507",
-    "42883227756815853117773066312785129806269528101714307638830331648301711758502"
-   ],
-   "vol24h": 2772.423901,
+   "vol24h": 1933.301542,
    "live": {
     "status": "ok",
     "sum_bid_live": 1.016,
     "edge_per_set": 0.016,
-    "capital_per_set": 9.984,
-    "ret_pct": 0.16,
-    "sets_at_best_bid": 5.0,
-    "profit_at_best_depth": 0.08,
+    "capital_per_set": 8.984,
+    "ret_pct": 0.178,
+    "sets_at_best_bid": 40.0,
+    "profit_at_best_depth": 0.64,
+    "weakest_bid": 0.006
+   }
+  },
+  {
+   "title": "Highest temperature in Warsaw on August 17?",
+   "slug": "highest-temperature-in-warsaw-on-august-17-2026",
+   "n": 11,
+   "sum_bid_gamma": 1.018,
+   "questions": [
+    "Will the highest temperature in Warsaw be 20\u00b0C or below on August 17?",
+    "Will the highest temperature in Warsaw be 21\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 22\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 23\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 24\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 25\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 26\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 27\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 28\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 29\u00b0C on August 17?",
+    "Will the highest temperature in Warsaw be 30\u00b0C or higher on August 17?"
+   ],
+   "yes_tokens": [
+    "31279234217079688480560528659555696767132897341443480846224042674575548140539",
+    "13827252981027403276222021442237886380205771584683425363933694955885105096768",
+    "13084806931858148675049224817008269775973264309788124270146456691568564174043",
+    "51914126022344759474250228281045847550058047103542245279568850662088544029702",
+    "102166225495594627182545119621513473104129885803088185075433503038355243845894",
+    "109990655466217097620487685337692728769536949065601472001234362529828048647135",
+    "81917271569784552165857544230297291540955171700268387163242278537635037261376",
+    "12638418836062443229141428280967682754798468176824019304521138377993966707875",
+    "16563192040001567752222695980399208632179185277348900778642070116091276271167",
+    "109854071347113767740345165648867379529082012483477478895742672493278546764608",
+    "94853750354069752213137551476726042315649685873620863813994663561041225236958"
+   ],
+   "vol24h": 12138.733168,
+   "live": {
+    "status": "ok",
+    "sum_bid_live": 1.021,
+    "edge_per_set": 0.021,
+    "capital_per_set": 9.979,
+    "ret_pct": 0.21,
+    "sets_at_best_bid": 2.0,
+    "profit_at_best_depth": 0.04,
     "weakest_bid": 0.001
+   }
+  },
+  {
+   "title": "Los Angeles Mayoral Election",
+   "slug": "los-angeles-mayoral-election-117",
+   "n": 6,
+   "sum_bid_gamma": 1.008,
+   "questions": [
+    "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+    "Will another candidate win the 2026 Los Angeles mayoral election?",
+    "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+    "Will Candidate H win the 2026 Los Angeles mayoral election?",
+    "Will Candidate I win the 2026 Los Angeles mayoral election?",
+    "Will Candidate J win the 2026 Los Angeles mayoral election?"
+   ],
+   "yes_tokens": [
+    "21099887182068653164347641846316470453763034851874063977340528628016776716246",
+    "46840050885436233690409016499634639658928105172581611341311246263028932039619",
+    "50292933818751585369672690878774599873941191925538325333138798248932182222864",
+    "9691186721676351619458750872149903700994927917891208205624791773982533102857",
+    "97358947453779688344143337114894008000505053791863687279492886106410593261059",
+    "90456158885514728456521991884539208369484437106533254906782324588425014367699"
+   ],
+   "vol24h": 2963.658912,
+   "live": {
+    "status": "book_unavailable"
    }
   },
   {
@@ -451,61 +391,175 @@
     "35791951836644703402531626734024703836463107607699694775270330689658835440405",
     "5852717731348445886690069268093305081512411976978105782864739363002666516199"
    ],
-   "vol24h": 2422.473955,
+   "vol24h": 2236.08842,
    "live": {
     "status": "book_unavailable"
    }
   },
   {
-   "title": "NHL: 2027 Western Conference Champion",
-   "slug": "nhl-2027-western-conference-champion-20260630185319860",
-   "n": 20,
-   "sum_bid_gamma": 1.023,
+   "title": "Pro Football: 2027 Champion",
+   "slug": "pro-football-2027-champion-20260729185915366",
+   "n": 33,
+   "sum_bid_gamma": 1.027,
    "questions": [
-    "Will Anaheim Ducks be the 2027 NHL Western Conference Champion?",
-    "Will Calgary Flames be the 2027 NHL Western Conference Champion?",
-    "Will Edmonton Oilers be the 2027 NHL Western Conference Champion?",
-    "Will Los Angeles Kings be the 2027 NHL Western Conference Champion?",
-    "Will San Jose Sharks be the 2027 NHL Western Conference Champion?",
-    "Will Seattle Kraken be the 2027 NHL Western Conference Champion?",
-    "Will Vancouver Canucks be the 2027 NHL Western Conference Champion?",
-    "Will Vegas Golden Knights be the 2027 NHL Western Conference Champion?",
-    "Will Chicago Blackhawks be the 2027 NHL Western Conference Champion?",
-    "Will Colorado Avalanche be the 2027 NHL Western Conference Champion?",
-    "Will Dallas Stars be the 2027 NHL Western Conference Champion?",
-    "Will Minnesota Wild be the 2027 NHL Western Conference Champion?",
-    "Will Nashville Predators be the 2027 NHL Western Conference Champion?",
-    "Will St. Louis Blues be the 2027 NHL Western Conference Champion?",
-    "Will Utah Hockey Club be the 2027 NHL Western Conference Champion?",
-    "Will Winnipeg Jets be the 2027 NHL Western Conference Champion?",
-    "Will Team A be the 2027 NHL Western Conference Champion?",
-    "Will Team B be the 2027 NHL Western Conference Champion?",
-    "Will Team C be the 2027 NHL Western Conference Champion?",
-    "Will another team be the 2027 NHL Western Conference Champion?"
+    "Will the Arizona Cardinals win the 2027 NFL league championship?",
+    "Will the Atlanta Falcons win the 2027 NFL league championship?",
+    "Will the Baltimore Ravens win the 2027 NFL league championship?",
+    "Will the Buffalo Bills win the 2027 NFL league championship?",
+    "Will the Carolina Panthers win the 2027 NFL league championship?",
+    "Will the Chicago Bears win the 2027 NFL league championship?",
+    "Will the Cincinnati Bengals win the 2027 NFL league championship?",
+    "Will the Cleveland Browns win the 2027 NFL league championship?",
+    "Will the Dallas Cowboys win the 2027 NFL league championship?",
+    "Will the Denver Broncos win the 2027 NFL league championship?",
+    "Will the Detroit Lions win the 2027 NFL league championship?",
+    "Will the Green Bay Packers win the 2027 NFL league championship?",
+    "Will the Houston Texans win the 2027 NFL league championship?",
+    "Will the Indianapolis Colts win the 2027 NFL league championship?",
+    "Will the Jacksonville Jaguars win the 2027 NFL league championship?",
+    "Will the Kansas City Chiefs win the 2027 NFL league championship?",
+    "Will the Las Vegas Raiders win the 2027 NFL league championship?",
+    "Will the Los Angeles Chargers win the 2027 NFL league championship?",
+    "Will the Los Angeles Rams win the 2027 NFL league championship?",
+    "Will the Miami Dolphins win the 2027 NFL league championship?",
+    "Will the Minnesota Vikings win the 2027 NFL league championship?",
+    "Will the New England Patriots win the 2027 NFL league championship?",
+    "Will the New Orleans Saints win the 2027 NFL league championship?",
+    "Will the New York Giants win the 2027 NFL league championship?",
+    "Will the New York Jets win the 2027 NFL league championship?",
+    "Will the Philadelphia Eagles win the 2027 NFL league championship?",
+    "Will the Pittsburgh Steelers win the 2027 NFL league championship?",
+    "Will the San Francisco 49ers win the 2027 NFL league championship?",
+    "Will the Seattle Seahawks win the 2027 NFL league championship?",
+    "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
+    "Will the Tennessee Titans win the 2027 NFL league championship?",
+    "Will the Washington Commanders win the 2027 NFL league championship?",
+    "Will another team win the 2027 NFL league championship?"
    ],
    "yes_tokens": [
-    "32858790352490037648814554073307070895693030820279383495830641941612326009494",
-    "96427603466122931063757984032904149803842268369786617275745922223738289623068",
-    "35346548432321558318887101054762720788057364582927907360982258842738151207485",
-    "95548598153242514466554998213948762203933450276380482328296169331598022369057",
-    "107895946616023973803022226326968014806345271776657997870364987753196549435156",
-    "49075112811891181992479624122734439780795041072106904692776307732949379826228",
-    "64920273958312002205343022562298074725164254788818686443499716442002823904393",
-    "29592951747633721586501422495854312054046488036140527140027155445457213510794",
-    "34157374950474550418834384412391054648898267146711529805200455934486240947062",
-    "68982070431527263286632459687039982419169405724138836396354952630560729099859",
-    "72295899866967046209140471499829042100900752096536180955711411512356144240523",
-    "103282547041039985791498606009407922054386073853711191079504633986894569008120",
-    "52791260040932772249886812833940837672434938798966253335974570312463228066336",
-    "99910264460307149011264359320047054466844334538424677821993689240898450719416",
-    "78070821572776060904580063720907643482072815388170407005316004411631541152765",
-    "101097259751537095422039893122523477736093062830962040019137907499953989534497",
-    "110907100740028908804860730206211828276482123141879034286069363574302469441936",
-    "38427167831108439023746157015773273898088368247193104622447809360800810913544",
-    "47821671191761829330415496965320109419744771958581172542048506345236188305273",
-    "79316026431345920897307145315718879398313433496822731844920469865862810259316"
+    "6807083143822791639785484162000434089482535992404945766593723006919421743513",
+    "92401779335211403876944846205390711484091005640459621068529751419253463263231",
+    "73903998640927437939889487883041380194034214913517653047704709946666153109395",
+    "15005653350202922348701786607519856020257461135905285631675545513297078700601",
+    "8289676553668905192646292194810844127463224729038516393438317442304948394619",
+    "20782101138359830353373339924745258800328483049130539494636298430311546419943",
+    "91312216951557525293884905171902573674976018469551783568783047942228223380002",
+    "35965406209258753337640981955645235544749167080943866358520922399726087677546",
+    "95250740975229568321286337983590034080899794989435247744887256482902867335355",
+    "32552965104139234418306396081841371197890264315094634472674018857038790114219",
+    "10111020886592735853228942459183728273074136717888452670231599414724838344635",
+    "35735014075537072843409037792992988369227546626755131549045738083250548567488",
+    "82860415910448737270902374411987827711923709249517011320325989967640805801007",
+    "37733636772890751830166994547829991132774994586134566102686345587785762739786",
+    "974996339434137274969205706934098681831948949675083560493538609289838899860",
+    "69042190742678678187984887226901406327636174762281438864527733358265304680670",
+    "59226162751411958698158426899722532714096625688096542121038780675009172335910",
+    "12782349642686772159246452578794502295967626450442027393248075511072163083100",
+    "43352642039302747588938905555385017655344819959150117270669936414308468726872",
+    "40461842876297220698229694136443456698836540114087448807075853976146277746623",
+    "2259102227815950907342121712913326957116722298738395193563847530262859469556",
+    "78281588462016004003374572469592689124590878916935893431087178527974926369110",
+    "110663723024357456888700616931388705119823235067095175879915487497597096882971",
+    "9529995439127992597916745368767207397574770251198740488507514341670263678067",
+    "35620040664307062505140509445997394221816856666002677359785585186304324108887",
+    "67550420979177489996180069723505955888038150368085668640711886592732638036902",
+    "1644423779555068499869687727066828174102109860217236402367040602994229475131",
+    "39837385690303579870717217200412085690608514752076614686048080531386540862921",
+    "44921620302443755066232904216706419654951291213279649386577553092891642701355",
+    "112711851390253649978954130460524061365181535685680933026744092367067211154863",
+    "82011182359345254749754399024502145123027503485440895682887227099665304794279",
+    "6614306125198469781454634877555386511572325590554203483372699263371225026087",
+    "97099155980409965881470924649906080549338343316065289371198875814363523263606"
    ],
-   "vol24h": 356.01,
+   "vol24h": 198722.577128,
+   "live": {
+    "status": "book_unavailable"
+   }
+  },
+  {
+   "title": "LCK 2026 Season Winner",
+   "slug": "lol-lck-2026-season-winner",
+   "n": 37,
+   "sum_bid_gamma": 1.028,
+   "questions": [
+    "Will BRION win the LCK 2026 season playoffs?",
+    "Will Dplus win the LCK 2026 season playoffs?",
+    "Will DRX win the LCK 2026 season playoffs?",
+    "Will FEARX win the LCK 2026 season playoffs?",
+    "Will Freecs win the LCK 2026 season playoffs?",
+    "Will Gen.G Esports win the LCK 2026 season playoffs?",
+    "Will Hanwha Life Esports win the LCK 2026 season playoffs?",
+    "Will KT Rolster win the LCK 2026 season playoffs?",
+    "Will Nongshim RedForce win the LCK 2026 season playoffs?",
+    "Will T1 win the LCK 2026 season playoffs?",
+    "Will Team A win the LCK 2026 season playoffs?",
+    "Will Team B win the LCK 2026 season playoffs?",
+    "Will Team C win the LCK 2026 season playoffs?",
+    "Will Team D win the LCK 2026 season playoffs?",
+    "Will Team E win the LCK 2026 season playoffs?",
+    "Will Team F win the LCK 2026 season playoffs?",
+    "Will Team G win the LCK 2026 season playoffs?",
+    "Will Team H win the LCK 2026 season playoffs?",
+    "Will Team I win the LCK 2026 season playoffs?",
+    "Will Team J win the LCK 2026 season playoffs?",
+    "Will Team K win the LCK 2026 season playoffs?",
+    "Will Team L win the LCK 2026 season playoffs?",
+    "Will Team M win the LCK 2026 season playoffs?",
+    "Will Team N win the LCK 2026 season playoffs?",
+    "Will Team O win the LCK 2026 season playoffs?",
+    "Will Team P win the LCK 2026 season playoffs?",
+    "Will Team Q win the LCK 2026 season playoffs?",
+    "Will Team R win the LCK 2026 season playoffs?",
+    "Will Team S win the LCK 2026 season playoffs?",
+    "Will Team T win the LCK 2026 season playoffs?",
+    "Will Team U win the LCK 2026 season playoffs?",
+    "Will Team V win the LCK 2026 season playoffs?",
+    "Will Team W win the LCK 2026 season playoffs?",
+    "Will Team X win the LCK 2026 season playoffs?",
+    "Will Team Y win the LCK 2026 season playoffs?",
+    "Will Team Z win the LCK 2026 season playoffs?",
+    "Will another team win the LCK 2026 season playoffs?"
+   ],
+   "yes_tokens": [
+    "38980554868563368105197970502286544690071489173012608306074305645705239965852",
+    "10758973103965567300641574703371197571648986814308016671852969630640343062627",
+    "30077147126516563101530866610392358268692129971617717883493494224781345518014",
+    "48763334902933922484134767798158586955396887889469686332133946733432157807109",
+    "82250654480562420270398377754344705431688632188610691016923439712746739425239",
+    "26056443051368572156232251022146787932941548529678528769955355279151846684456",
+    "83224701539825492597746423742799045654222114848088872408339985144134292756767",
+    "26296474991191123512816886001190633978360497050656540802130966176137355134922",
+    "66025194331065074126791474351557265008264437631702872547514904753570713859339",
+    "62804911907489111334697890737104070700453790356573302135692733287860846700139",
+    "34329078421082949640193808383457506710234650853267448566722740045716356934754",
+    "74046235783333668811036219769183833329719963991475827080557829892721419883829",
+    "9553219111394111161352099521978029579366707787436107195813192414884109512271",
+    "35857859402067293367645765904020046769258617060828884313926028935832068219992",
+    "3202071571072385438377514806259578142649906822018725430076784229112740761684",
+    "49649462879124337627885259409809027142894392768559661310334347197303177257730",
+    "44743346835366585441214729953690337682939392155764060482251612570055014047909",
+    "113114092521640713258317939772486229872212141382071154100086036026177236653160",
+    "59899368280678942789739790398025485476047071675408225884131574817505207259844",
+    "2529800167311418972879533318829106678948435435201640505558075129121285996066",
+    "84033998998465606560719430785527385856755355995809397611906453065939319407212",
+    "31972615403937003571713645550652775501611110839868998420273181441407790125478",
+    "18056468878600756260420920887469739860442919785623494078635176823650180019095",
+    "48407741049152059849350504346568768937769150410578741853626369213914379159441",
+    "105368877543499811376293603007979746057264066885478307783292718329391058877596",
+    "77843214779623096954946350691204290622331669621215111186445536110550434938876",
+    "114261689719210167868099865274668244944874493993897871178921011549055588864313",
+    "70092349292028743605777037911213308628346081876741426248121790846664973429123",
+    "89227571184175598288047344992660270347510501645619357930543253547907153575979",
+    "102284987622415448437573400801410527417855354054411065470513199891118351304584",
+    "91952443578266286246843969835643266348901222188086786626129874897376015775578",
+    "111074696579850310396263121155322462341829772916365846214632493997431213362412",
+    "34953265487505077914099429517763703242533114775842305195186359838721638691193",
+    "30799230204911851497655158721381948875255904379368098859153987486824549830653",
+    "79110296595479001638960742353584007956152507530816300329164494874578064218937",
+    "995332125368319856331113664904164729176829638294657469074145771336736695829",
+    "7759620638879227026640094592994872552076661656093100361196677419835857044411"
+   ],
+   "vol24h": 3524.17918,
    "live": {
     "status": "book_unavailable"
    }
