@@ -1,32 +1,32 @@
 {
- "ts": "2026-08-17T08:41:52Z",
- "candidates": 16,
+ "ts": "2026-08-17T12:48:12Z",
+ "candidates": 17,
  "verified": [
   {
-   "title": "Be\u015fikta\u015f JK vs. FK Kauno \u017dalgiris",
-   "slug": "uel-bes-kau-2026-08-20",
+   "title": "Orlando City SC vs. Real Salt Lake",
+   "slug": "mls-orl-rsl-2026-08-22",
    "n": 3,
-   "sum_bid_gamma": 1.012,
+   "sum_bid_gamma": 1.02,
    "questions": [
-    "Will Be\u015fikta\u015f JK win on 2026-08-20?",
-    "Will Be\u015fikta\u015f JK vs. FK Kauno \u017dalgiris end in a draw?",
-    "Will FK Kauno \u017dalgiris win on 2026-08-20?"
+    "Will Orlando City SC win on 2026-08-22?",
+    "Will Orlando City SC vs. Real Salt Lake end in a draw?",
+    "Will Real Salt Lake win on 2026-08-22?"
    ],
    "yes_tokens": [
-    "12314894218835682939501383640347376280537994742117209995156385926677473660033",
-    "31606190588811253754445115735371975503811641307478322619737077782578594125971",
-    "13838934806643695802111894727173403484828479760527337423741639328992382573491"
+    "52982098854069861010614342641037510013926756005186148104680880602241701519666",
+    "76865807045119272700414578004366714222413376129289372959613394053708679729419",
+    "106976714763627572073141450949086518397599957966731517020362596427123794630175"
    ],
-   "vol24h": 220.00318,
+   "vol24h": 2523.96,
    "live": {
     "status": "ok",
-    "sum_bid_live": 1.011,
-    "edge_per_set": 0.011,
-    "capital_per_set": 1.989,
-    "ret_pct": 0.553,
-    "sets_at_best_bid": 5.0,
-    "profit_at_best_depth": 0.06,
-    "weakest_bid": 0.051
+    "sum_bid_live": 1.01,
+    "edge_per_set": 0.01,
+    "capital_per_set": 1.99,
+    "ret_pct": 0.503,
+    "sets_at_best_bid": 101.0,
+    "profit_at_best_depth": 1.01,
+    "weakest_bid": 0.22
    }
   },
   {
@@ -81,6 +81,35 @@
    }
   },
   {
+   "title": "Sweden Parliamentary Election: M Vote Share?",
+   "slug": "sweden-parliamentary-election-m-vote-share-20260812172636430",
+   "n": 4,
+   "sum_bid_gamma": 1.01,
+   "questions": [
+    "Will Moderate Party (M) win less than 16% of all valid votes?",
+    "Will Moderate Party (M) win between 16% and 18% of all valid votes?",
+    "Will Moderate Party (M) win between 18% and 20% of all valid votes?",
+    "Will Moderate Party (M) win at least 20% of all valid votes?"
+   ],
+   "yes_tokens": [
+    "17558822372594571094624376836419309316302854440780766581580743034401127182500",
+    "73470776891781938309982246714413293178420813229628993163508221872003491543609",
+    "40463781704539243364064220964653987636989141570905234397218523450189898309659",
+    "32870754046185979497183163253384646408103980496689264824423535458172171710164"
+   ],
+   "vol24h": 669.105011,
+   "live": {
+    "status": "ok",
+    "sum_bid_live": 1.01,
+    "edge_per_set": 0.01,
+    "capital_per_set": 2.99,
+    "ret_pct": 0.334,
+    "sets_at_best_bid": 83.0,
+    "profit_at_best_depth": 0.83,
+    "weakest_bid": 0.13
+   }
+  },
+  {
    "title": "Fed Decision in December?",
    "slug": "fed-decision-in-december-20260729232808632",
    "n": 5,
@@ -99,15 +128,15 @@
     "111662129652828266889360374468657435151479595863413519836161861837506140152890",
     "35090254409399344650860070211816464534198960801264823587796928404808383727584"
    ],
-   "vol24h": 2779.38599,
+   "vol24h": 2548.238066,
    "live": {
     "status": "ok",
     "sum_bid_live": 1.01,
     "edge_per_set": 0.01,
     "capital_per_set": 3.99,
     "ret_pct": 0.251,
-    "sets_at_best_bid": 827.0,
-    "profit_at_best_depth": 8.27,
+    "sets_at_best_bid": 845.2,
+    "profit_at_best_depth": 8.45,
     "weakest_bid": 0.008
    }
   },
@@ -130,7 +159,7 @@
     "55159722761418013044126414276680602270318000841690689684819994448621694923050",
     "18246296022868501258060085368606280205967114341141276439803424448463050819498"
    ],
-   "vol24h": 11114.841989999999,
+   "vol24h": 7491.088273999999,
    "live": {
     "status": "ok",
     "sum_bid_live": 1.009,
@@ -143,34 +172,10 @@
    }
   },
   {
-   "title": "Pro Football: NFC West Champion  ",
-   "slug": "pro-football-nfc-west-champion",
-   "n": 5,
-   "sum_bid_gamma": 1.008,
-   "questions": [
-    "Will Arizona Cardinals win the 2026 NFC West?",
-    "Will Los Angeles Rams win the 2026 NFC West?",
-    "Will San Francisco 49ers win the 2026 NFC West?",
-    "Will Seattle Seahawks win the 2026 NFC West?",
-    "Will another team win the 2026 NFC West?"
-   ],
-   "yes_tokens": [
-    "86879959020266143935408454353956896491258811114882377583787633063634995996979",
-    "67651919563628648241257296002300369771574695624731917225285448721651815913470",
-    "20734616218413918253286841848141420674435836328813320092973103482360094595226",
-    "82271942242710769570803784095231328067346679435915271504441012044356319382263",
-    "36549108248624398993945372848429614069179259819701097520817695601301163534334"
-   ],
-   "vol24h": 449.23,
-   "live": {
-    "status": "book_unavailable"
-   }
-  },
-  {
    "title": "Anthropic IPO Closing Market Cap",
    "slug": "anthropic-ipo-closing-market-cap-higher-strikes",
    "n": 10,
-   "sum_bid_gamma": 1.016,
+   "sum_bid_gamma": 1.019,
    "questions": [
     "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
     "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
@@ -195,16 +200,40 @@
     "26664280622629407478832895512837601703997167704538642212577285812882259796777",
     "61384696186251209143896776425290954166574314160100170305191977932165151583313"
    ],
-   "vol24h": 2078.665549,
+   "vol24h": 2783.187126,
    "live": {
     "status": "ok",
-    "sum_bid_live": 1.017,
-    "edge_per_set": 0.017,
-    "capital_per_set": 8.983,
-    "ret_pct": 0.189,
-    "sets_at_best_bid": 19.0,
-    "profit_at_best_depth": 0.32,
+    "sum_bid_live": 1.018,
+    "edge_per_set": 0.018,
+    "capital_per_set": 8.982,
+    "ret_pct": 0.2,
+    "sets_at_best_bid": 40.0,
+    "profit_at_best_depth": 0.72,
     "weakest_bid": 0.006
+   }
+  },
+  {
+   "title": "Pro Football: NFC West Champion  ",
+   "slug": "pro-football-nfc-west-champion",
+   "n": 5,
+   "sum_bid_gamma": 1.008,
+   "questions": [
+    "Will Arizona Cardinals win the 2026 NFC West?",
+    "Will Los Angeles Rams win the 2026 NFC West?",
+    "Will San Francisco 49ers win the 2026 NFC West?",
+    "Will Seattle Seahawks win the 2026 NFC West?",
+    "Will another team win the 2026 NFC West?"
+   ],
+   "yes_tokens": [
+    "86879959020266143935408454353956896491258811114882377583787633063634995996979",
+    "67651919563628648241257296002300369771574695624731917225285448721651815913470",
+    "20734616218413918253286841848141420674435836328813320092973103482360094595226",
+    "82271942242710769570803784095231328067346679435915271504441012044356319382263",
+    "36549108248624398993945372848429614069179259819701097520817695601301163534334"
+   ],
+   "vol24h": 649.23,
+   "live": {
+    "status": "book_unavailable"
    }
   },
   {
@@ -228,7 +257,7 @@
     "97358947453779688344143337114894008000505053791863687279492886106410593261059",
     "90456158885514728456521991884539208369484437106533254906782324588425014367699"
    ],
-   "vol24h": 3257.5939120000003,
+   "vol24h": 3038.893912,
    "live": {
     "status": "book_unavailable"
    }
@@ -284,43 +313,39 @@
    }
   },
   {
-   "title": "2026 Midterms: House Popular Vote Margin of Victory",
-   "slug": "2026-midterms-house-popular-vote-margin-of-victory-224",
-   "n": 14,
-   "sum_bid_gamma": 1.013,
+   "title": "The International 2026: Winner",
+   "slug": "the-international-2026-winner-20260629212545745",
+   "n": 12,
+   "sum_bid_gamma": 1.011,
    "questions": [
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by 16% or more?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 14% and 16%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 12% and 14%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 10% and 12%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 8% and 10%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 6% and 8%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 4% and 6%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 2% and 4%?",
-    "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 0% and 2%?",
-    "Will the Republican Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 0% and 2%?",
-    "Will the Republican Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 2% and 4%?",
-    "Will the Republican Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 4% and 6%?",
-    "Will the Republican Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by 6% or more?",
-    "Will any other outcome occur in the 2026 U.S. House of Representatives midterm elections?"
+    "Will BoomBoys Win The International 2026?",
+    "Will Team Falcons Win The International 2026?",
+    "Will Team Liquid Win The International 2026?",
+    "Will 1w Team Win The International 2026?",
+    "Will Team Yandex Win The International 2026?",
+    "Will Team Spirit Win The International 2026?",
+    "Will TEAM VISION Win The International 2026?",
+    "Will Nigma Galaxy Win The International 2026?",
+    "Will A Win The International 2026?",
+    "Will B Win The International 2026?",
+    "Will C Win The International 2026?",
+    "Will another team Win The International 2026?"
    ],
    "yes_tokens": [
-    "100679804989611527436514107357371267281877238441080348655682796819199041359725",
-    "35361058112082904676371329644899882002386761984006083679612956720260839073182",
-    "21633444625461695521686793657284074148611964832825896842075274158106961627941",
-    "12187508628341086608834260053172030797852252826287262815880551861763429357999",
-    "5082930564781531034183884027828338567725729824752787055410000579672507399684",
-    "78468188757427102136057919567902583256467081502638152659912123531161625706346",
-    "102601120323002202966920366173580898058451737077598383077126515677277378841293",
-    "46994016169133797309877193959832125670930617808262927606468746100213052999193",
-    "80550370256699871148261586860864666565203239872212368721692865921674988252695",
-    "60860548217187590043398879641344481020449836142417256022459243714013203999136",
-    "85295657573822267833192061979275384579298935392214292943896564968646218910515",
-    "83635830745919080624720242286107093045431379387765250279430574202910237671577",
-    "60691187089682219475895570702898759309638149974731558542593214883334661027457",
-    "115319004701327857200334400826700484304164377766835800935273449247486113289250"
+    "59107862872333294142948422986307609920927545956033848844453616151103784458314",
+    "38532220544394138538105102651383527238973408363860604078051524557640256983932",
+    "56038336871778305033809645882529869316253185041369230814475184086109980168717",
+    "30135034376837406212264942443571015913771430841103958818096970969872162878481",
+    "39684490941054564991898233082117405993386143087240105903415766935100974006487",
+    "4463128018638469444416972429267653174883831356793701319313461021927394918123",
+    "8809792515812911043363849777091288917258064158868526871523714511542523411297",
+    "8804343585573579507377527335223951946231959992767912105853871959271107296585",
+    "40311336489956720697018895051869356715231741919748131253590368919922385302638",
+    "31602298460193841752663584706919246291903099397846433002119137743220785045306",
+    "43172972365430261231321169727664505728793732542148701071180220331346896502620",
+    "88697244555043796390554377758095071628721416984826079289139721641722376377209"
    ],
-   "vol24h": 364.941169,
+   "vol24h": 15324.739288,
    "live": {
     "status": "book_unavailable"
    }
@@ -400,7 +425,7 @@
     "6614306125198469781454634877555386511572325590554203483372699263371225026087",
     "97099155980409965881470924649906080549338343316065289371198875814363523263606"
    ],
-   "vol24h": 199229.112549,
+   "vol24h": 176600.439365,
    "live": {
     "status": "book_unavailable"
    }
@@ -440,15 +465,15 @@
     "56345349743779788266710915561914531858285418844567819631705863717318287635981",
     "9348234470735473071085620208817441102005165766524508452759679947551704787649"
    ],
-   "vol24h": 67419.954278,
+   "vol24h": 61176.947381000005,
    "live": {
     "status": "ok",
     "sum_bid_live": 1.009,
     "edge_per_set": 0.009,
     "capital_per_set": 11.991,
     "ret_pct": 0.075,
-    "sets_at_best_bid": 785.5,
-    "profit_at_best_depth": 7.07,
+    "sets_at_best_bid": 948.5,
+    "profit_at_best_depth": 8.54,
     "weakest_bid": 0.001
    }
   },
@@ -456,7 +481,7 @@
    "title": "NBA: 2027 Champion",
    "slug": "nba-2027-champion",
    "n": 36,
-   "sum_bid_gamma": 1.023,
+   "sum_bid_gamma": 1.024,
    "questions": [
     "Will Atlanta Hawks win the 2027 NBA Finals?",
     "Will Boston Celtics win the 2027 NBA Finals?",
@@ -533,65 +558,7 @@
     "99112749741190483471525084941436029185016980061666365528794343135098242493946",
     "96905804729204307857039566437829689047431093694063848840730419245151280567854"
    ],
-   "vol24h": 15471.920964,
-   "live": {
-    "status": "book_unavailable"
-   }
-  },
-  {
-   "title": "BLAST Open Porto 2026: Winner",
-   "slug": "blast-open-porto-2026-winner-20260806201117422",
-   "n": 22,
-   "sum_bid_gamma": 1.011,
-   "questions": [
-    "Will Falcons Win the BLAST Open Porto 2026?",
-    "Will Spirit Win the BLAST Open Porto 2026?",
-    "Will FURIA Win the BLAST Open Porto 2026?",
-    "Will Vitality Win the BLAST Open Porto 2026?",
-    "Will MOUZ Win the BLAST Open Porto 2026?",
-    "Will Natus Vincere Win the BLAST Open Porto 2026?",
-    "Will 9z Win the BLAST Open Porto 2026?",
-    "Will Aurora Win the BLAST Open Porto 2026?",
-    "Will G2 Win the BLAST Open Porto 2026?",
-    "Will BetBoom Win the BLAST Open Porto 2026?",
-    "Will Legacy Win the BLAST Open Porto 2026?",
-    "Will FUT Win the BLAST Open Porto 2026?",
-    "Will DENDELE Win the BLAST Open Porto 2026?",
-    "Will Inner Circle Win the BLAST Open Porto 2026?",
-    "Will M80 Win the BLAST Open Porto 2026?",
-    "Will Lynn Vision Win the BLAST Open Porto 2026?",
-    "Will A Win the BLAST Open Porto 2026?",
-    "Will B Win the BLAST Open Porto 2026?",
-    "Will C Win the BLAST Open Porto 2026?",
-    "Will D Win the BLAST Open Porto 2026?",
-    "Will E Win the BLAST Open Porto 2026?",
-    "Will another team Win the BLAST Open Porto 2026?"
-   ],
-   "yes_tokens": [
-    "43164453510029571487211681768647767877881760745166846150675885574814315881267",
-    "114521718595706050282041188911200320484701958927181234917441691716001711298886",
-    "62011615689399208062082997931725714634772511609143565687816684044670831679832",
-    "51051964217961336735632098244885894028545758307554630063476250237874692616564",
-    "39655214241605906953625481726978626618949442678636232137446826731804624405311",
-    "80029415364665952410072422340920527598840178447729011084896468568634869143467",
-    "23291457538353074425770833621908522746678858305035519464971847433052495281107",
-    "19760677905523165603009975081989289719947116052388437667276648922808985426174",
-    "52845761185942106472617294816830159813417664381312240487666870504533656553827",
-    "114447926783800961427177314141226354362677913439152173499747865509595772461906",
-    "80300855978002641750518882374884078666823180284493417702191278790303671253833",
-    "94418568325206610223703385548388611084425895221001327799913730890971273924079",
-    "54680728276481276847706100902684026803461350847280698160896856431520396470155",
-    "55993825201601240579570376767954110818590583534952821179720986238114817409116",
-    "15624315692415147248463640898117428719506908026649628650599136059911368484704",
-    "11055825029624766849088364961397192674505827108508047795556183531832106888639",
-    "85179826608136205004764487544730080723531431494067023389568158688914997239531",
-    "44280540751829561120556362877588993135799538682497382965646208157075913154058",
-    "71886173358545492051823195183355564816558783479211662643612522388516488328880",
-    "105353556256233924150268904091150004505321286845982222158592857382694824016577",
-    "79007368245992770638027373128903371852945005822627455571903851701964409244040",
-    "18378672983004329978166650735613093683598963985241069892989524483548460076075"
-   ],
-   "vol24h": 286.4179,
+   "vol24h": 48928.105428,
    "live": {
     "status": "book_unavailable"
    }
