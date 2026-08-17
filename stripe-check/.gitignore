@@ -5,3 +5,12 @@ scan.log
 nohup.out
 __pycache__/
 *.pyc
+data/pricing.jsonl
+data/pricing_corpus.jsonl.gz
+data/pilotp*
+pricing.log
+retry.log
+retry.txt
+pilot*.txt
+urls.txt
+data/*.xlsx
